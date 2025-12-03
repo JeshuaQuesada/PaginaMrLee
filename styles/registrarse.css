@@ -67,22 +67,8 @@ footer{
     outline: none;
 }
 
-
-/*Aqui empiezan las configuraciones para la parte de registrarse*/
-.form-registrar {
-    margin-top: 20px;
-    padding-top: 20px;
-    border-top: 2px solid #84b6f4;
-}
-
-.form-registrar p {
-    color: #005187;
-    margin-bottom: 10px;
-    font-size: 16px;
-}
-
 /* Botones */
-.btn-primary, .btn-secondary {
+.btn-primary{
     background-color: #005187;
     color: #fcffff; 
     border: none;
