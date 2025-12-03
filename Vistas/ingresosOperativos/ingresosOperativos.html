@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/PaginaMrLee/styles/index.css">
-    <title>Página Principal</title>
+    <link rel="stylesheet" href="/PaginaMrLee/styles/ingesosOperativos.css">
+    <title>Ingresos Operativos</title>
 </head>
 <body>
     <header>
@@ -13,7 +13,7 @@
     <nav class="navbar-index">
         <div class="container-nav">
             <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Página Principal</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/index.html">Página Principal</a>
                 <a class="nav-link" href="#">Seguimiento de pedidos</a>
                 <a class="nav-link" href="#">Inventario</a>
                 <a class="nav-link" href="#">Usuarios y accesos</a>
@@ -23,8 +23,120 @@
             </div>
         </div>
     </nav>
+    
     <main>
+        <!-- Tarjetas de resumen -->
+        <div class="tarjetas-resumen">
+            <div class="tarjeta">
+                <p class="tarjeta-titulo">TOTAL INGRESOS (CRC)</p>
+                <h2 class="tarjeta-monto">₡ 8,450,000</h2>
+                <p class="tarjeta-cambio positivo">↑ 12% vs mes anterior</p>
+            </div>
+            <div class="tarjeta">
+                <p class="tarjeta-titulo">TOTAL INGRESOS (USD)</p>
+                <h2 class="tarjeta-monto">$ 4,200.00</h2>
+                <p class="tarjeta-cambio negativo">↓ 2% vs mes anterior</p>
+            </div>
+        <div class="contenedor-principal">
+            <div class="panel-registro">
+                <h3>Registrar Nuevo Ingreso</h3>
+                <label>Fecha de Operación</label>
+                <input type="date" class="input-fecha">
+                <label>Moneda (ING-001 Crit 5/6)</label>
+                <select class="input-select">
+                    <option>Colones (CRC)</option>
+                    <option>Dólares (USD)</option>
+                </select>
+                <label>Monto</label>
+                <input type="number" class="input-monto" placeholder="0.00">
+                <label>Método de Pago (ING-001 Crit 7/8)</label>
+                <select class="input-select">
+                    <option>Efectivo</option>
+                    <option>Tarjeta</option>
+                    <option>SINPE</option>
+                </select>
+                
+                <button class="btn-guardar">Guardar Ingreso</button>
+            </div>
+
+            <!-- Panel derecho: Tabla de registros -->
+            <div class="panel-tabla">
+                <div class="filtros-tabla">
+                    <input type="date" class="input-fecha-small" placeholder="dd/mm/aaaa">
+                    <span>hasta</span>
+                    <input type="date" class="input-fecha-small" placeholder="dd/mm/aaaa">
+                    <select class="filtro-select">
+                        <option>Estado: Todos</option>
+                        <option>Registrado</option>
+                        <option>Anulado</option>
+                    </select>
+                    <button class="btn-buscar-tabla">🔍 Buscar</button>
+                </div>
+
+                <table class="tabla-ingresos">
+                    <thead>
+                        <tr>
+                            <th>FECHA</th>
+                            <th>REF / DETALLE</th>
+                            <th>MÉTODO</th>
+                            <th>MONTO ORIG.</th>
+                            <th>MONTO CRC</th>
+                            <th>ESTADO</th>
+                            <th>ACCIONES</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>19/11/2025</td>
+                            <td>
+                                <strong>REF-99821</strong><br>
+                                <small>Venta Mostrador</small>
+                            </td>
+                            <td>SINPE</td>
+                            <td>₡ 25,000</td>
+                            <td>₡ 25,000</td>
+                            <td><span class="estado-registrado">REGISTRADO</span></td>
+                            <td>
+                                <button class="btn-icono">✏️</button>
+                                <button class="btn-icono">🗑️</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18/11/2025</td>
+                            <td>
+                                <strong>XXXX-1234</strong><br>
+                                <small>Servicios Prof.</small>
+                            </td>
+                            <td>Tarjeta</td>
+                            <td class="monto-usd">$ 100.00</td>
+                            <td>₡ 51,500</td>
+                            <td><span class="estado-anulado">ANULADO</span></td>
+                            <td>
+                                <button class="btn-ver">Ver motivo</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18/11/2025</td>
+                            <td>
+                                <strong>Efectivo</strong><br>
+                                <small>Ventas Varias</small>
+                            </td>
+                            <td>Efectivo</td>
+                            <td>₡ 12,000</td>
+                            <td>₡ 12,000</td>
+                            <td><span class="estado-registrado">REGISTRADO</span></td>
+                            <td>
+                                <button class="btn-icono">✏️</button>
+                                <button class="btn-icono">🗑️</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p class="pie-tabla">Mostrando 3 de 145 registros</p>
+            </div>
+        </div>
     </main>
+    
     <footer>
         <h3>Mr. Lee Panes y Más</h3>
     </footer>
