@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="/PaginaMrLee/styles/recursosHumanos.css">
+    <title>Recursos Humanos</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Mr. Lee Panes y Más</h1>
+    </header>
+    <nav class="navbar-index">
+        <div class="container-nav">
+            <div class="navbar-nav">
+                <a class="nav-link" href="/PaginaMrLee/Vistas/index.html">Página Principal</a>
+                <a class="nav-link" href="#">Seguimiento de pedidos</a>
+                <a class="nav-link" href="#">Inventario</a>
+                <a class="nav-link" href="#">Usuarios y accesos</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/ingresosOperativos/ingresosOperativos.html">Ingresos operativos</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/recursosHumanos/recursosHumanos.html">Recursos humanos</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/inicioDeSesion/ajustesSesion.html">Perfil</a> 
+            </div>
+        </div>
+    </nav>
+<main>
+    <div class="filtros-container">
+        <input type="text" class="buscar-input" placeholder="Buscar por nombre o ID...">
+        
+        <select class="filtro-select">
+            <option>Estado: Todos</option>
+            <option>Activo</option>
+            <option>Vacaciones</option>
+        </select>
+        
+        <select class="filtro-select">
+            <option>Sucursal: Todas</option>
+            <option>San José</option>
+            <option>Heredia</option>
+        </select>
+        
+        <button class="btn-buscar">Buscar</button>
+        <button class="btn-exportar">Exportar Excel</button>
+    </div>
+
+    <table class="tabla-empleados">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Empleado</th>
+                <th>Puesto</th>
+                <th>Sucursal</th>
+                <th>Fecha Ingreso</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>EMP-0045</td>
+                <td>Sofía Ramírez</td>
+                <td>Analista Senior</td>
+                <td>Central</td>
+                <td>10/02/2023</td>
+                <td><span class="estado-activo">● Activo</span></td>
+            </tr>
+            <tr>
+                <td>EMP-0092</td>
+                <td>Carlos Méndez</td>
+                <td>Vendedor</td>
+                <td>Norte</td>
+                <td>15/11/2024</td>
+                <td><span class="estado-vacaciones">● Vacaciones</span></td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+    <footer>
+        <h3>Mr. Lee Panes y Más</h3>
+    </footer>
 </body>
 </html>

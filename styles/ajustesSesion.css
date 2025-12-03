@@ -96,3 +96,43 @@ footer{
     text-decoration: none;
     display: inline-block;
 }
+
+/*Aqui esta la configuracion del navbar*/
+.navbar-index {
+    background-color: #005187;
+    padding: 0;
+}
+
+.container-nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-link {
+    color: #c4dafa;
+    text-decoration: none;
+    padding: 15px 20px;
+    display: block;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+    background-color: #4d82bc;
+    color: #fcffff;
+}
+
+.nav-link.active {
+    color: #fcffff;
+    background-color: #4d82bc;
+    border-bottom: 3px solid #84b6f4;
+}
