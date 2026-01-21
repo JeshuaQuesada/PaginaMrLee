@@ -1,0 +1,65 @@
+@model MrLee.UI.Models.Producto
+@{
+    ViewBag.Title = "Editar Producto";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Editar Producto</h2>
+
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <strong>Error:</strong> @ViewBag.Error
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="card">
+        <div class="card-body">
+            @using (Html.BeginForm("Guardar", "Productos", FormMethod.Post))
+            {
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="form-group mb-3">
+                            <label for="codigo">Código:</label>
+                            <input type="text" class="form-control" id="codigo" name="codigo" value="@Model.codigo" required />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="form-group mb-3">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" value="@Model.nombre" required />
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="form-group mb-3">
+                            <label for="categoria">Categoría:</label>
+                            <input type="text" class="form-control" id="categoria" name="categoria" value="@Model.categoria" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="form-group mb-3">
+                            <label for="precio">Precio:</label>
+                            <input type="number" class="form-control" id="precio" name="precio" value="@Model.precio" step="0.01" required />
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group mb-3">
+                            <label for="stock">Stock:</label>
+                            <input type="number" class="form-control" id="stock" name="stock" value="@Model.stock" required />
+                        </div>
+                    </div>
+                </div>
+
+                <input type="hidden" id="id" name="id" value="@Model.id_producto" />
+
+                <button type="submit" class="btn btn-success">Guardar Cambios</button>
+                <a href="@Url.Action("Index", "Productos")" class="btn btn-secondary">Cancelar</a>
+            }
+        </div>
+    </div>
+</div>

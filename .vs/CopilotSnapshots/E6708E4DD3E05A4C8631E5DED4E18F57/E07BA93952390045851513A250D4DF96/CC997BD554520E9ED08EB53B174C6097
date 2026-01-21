@@ -1,0 +1,74 @@
+﻿SMOKE TEST - MrLeeDB
+====================
+
+Este controlador permite hacer un test mínimo de la BD MrLeeDB y sus triggers de auditoría.
+
+ENDPOINTS
+=========
+
+1. GET /Smoke/Health
+   Verifica conexión básica a BD (SELECT 1)
+   Respuesta: { "ok": true }
+
+2. GET /Smoke/Run?user=admin_prueba&ip=127.0.0.1
+   Ejecuta CRUD sobre dbo.productos:
+   - DELETE si existe P-999
+   - INSERT producto P-999
+   - UPDATE nombre/precio/stock
+   - DELETE producto
+   - SELECT TOP 10 de dbo.bitacora_auditoria
+   
+   Parámetros (opcionales, por defecto "system" y "0.0.0.0"):
+   - user: usuario responsable de la auditoría
+   - ip: dirección IP origen
+   
+   Respuesta: 
+   {
+     "ok": true,
+     "idProducto": 12345,
+     "bitacora": [
+       {
+         "id_bitacora": ...,
+         "tabla_afectada": "productos",
+         "id_registro": 12345,
+         "accion": "CREATE",
+         "modulo": "Inventario",
+         "usuario_responsable": "admin_prueba",
+         "fecha_hora": "2025-01-22T10:30:00",
+         "datos_nuevos": "{...}",
+         "datos_anteriores": null,
+         "ip_origen": "127.0.0.1",
+         "descripcion": "Auditoría automática por trigger"
+       },
+       ...
+     ]
+   }
+
+3. GET /Smoke/BitacoraUltimo
+   Retorna el último registro de la bitácora
+   Respuesta:
+   {
+     "ok": true,
+     "data": { /* registro */ }
+   }
+
+REQUISITOS
+==========
+- Tener la BD MrLeeDB en SQL Server
+- Tabla dbo.productos con estructura: id_producto, codigo, nombre, categoria, precio, stock, activo
+- Tabla dbo.bitacora_auditoria con auditoría por triggers
+- Conexión en Web.config: name="MrLeeDB"
+
+CAMBIOS REALIZADOS
+===================
+1. Web.config: Agregada connectionString "MrLeeDB"
+2. Controllers/SmokeController.cs: Controlador con 3 acciones
+
+COMO PROBAR
+===========
+1. Abrir Visual Studio y ejecutar con IIS Express
+2. Navegar a: http://localhost:PUERTO/Smoke/Health
+3. Si ok:true, hacer un test de CRUD:
+   http://localhost:PUERTO/Smoke/Run?user=admin_prueba&ip=127.0.0.1
+4. Verificar bitácora:
+   http://localhost:PUERTO/Smoke/BitacoraUltimo
