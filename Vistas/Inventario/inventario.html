@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inventario</title>
+    <link rel="stylesheet" href="/PaginaMrLee/styles/styles.css">
+
+</head>
+<body>
+    <!-- Barra de navegación principal -->
+    <header>
+        <h1>Mr. Lee Panes y Más</h1>
+    </header>
+    <nav class="navbar-index">
+        <div class="container-nav">
+            <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="/PaginaMrLee/Vistas/index.html">Página Principal</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/seguimientoDePedidos/pedidos.html">Seguimiento de pedidos</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/Inventario/inventario.html">Inventario</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/usuariosAccesos/usuarios.html">Usuarios y accesos</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/ingresosOperativos/ingresosOperativos.html">Ingresos operativos</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/recursosHumanos/recursosHumanos.html">Recursos humanos</a>
+                <a class="nav-link" href="/PaginaMrLee/Vistas/inicioDeSesion/ajustesSesion.html">Perfil</a> 
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h2>Inventario</h2>
+
+        <!-- Sección para crear un producto (INV‑001) -->
+        <div class="section">
+            <h3>Crear producto</h3>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="codigo">Código*</label>
+                        <input type="text" id="codigo" name="codigo" placeholder="Ingrese código del producto" required>
+                    </div>
+                    <div>
+                        <label for="sku">Código de barras / SKU (opcional)</label>
+                        <input type="text" id="sku" name="sku" placeholder="Ingrese código de barras o SKU">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="nombre">Nombre*</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre del producto" required>
+                    </div>
+                    <div>
+                        <label for="precio">Precio*</label>
+                        <input type="number" id="precio" name="precio" placeholder="Precio" min="0" step="0.01" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="unidad">Unidades disponibles*</label>
+                        <input type="number" id="unidad" name="unidad" placeholder="Cantidad" min="0" required>
+                    </div>
+                    <div>
+                        <label for="categoria">Categoría*</label>
+                        <input type="text" id="categoria" name="categoria" placeholder="Categoría" required>
+                    </div>
+                    <div>
+                        <label for="stock">Stock disponible*</label>
+                        <select id="stock" name="stock" required>
+                            <option value="">Seleccione</option>
+                            <option value="true">Sí hay stock</option>
+                            <option value="false">Sin stock</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+
+        <!-- Sección para consultar productos (INV‑002) -->
+        <div class="section">
+            <h3>Consultar productos</h3>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="busqueda">Buscar por nombre, código o SKU</label>
+                        <input type="text" id="busqueda" name="busqueda" placeholder="Ej. teclado, INV‑001, 12345">
+                    </div>
+                    <div>
+                        <label for="filtroCategoria">Filtrar por categoría</label>
+                        <input type="text" id="filtroCategoria" name="filtroCategoria" placeholder="Categoría">
+                    </div>
+                    <div>
+                        <label for="filtroEstado">Filtrar por estado</label>
+                        <select id="filtroEstado" name="filtroEstado">
+                            <option value="">Todos</option>
+                            <option value="activo">Activo</option>
+                            <option value="inactivo">Inactivo</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ordenar">Ordenar por</label>
+                        <select id="ordenar" name="ordenar">
+                            <option value="nombre">Nombre</option>
+                            <option value="codigo">Código</option>
+                            <option value="fecha">Fecha</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">Buscar</button>
+            </form>
+            <!-- Tabla de resultados. El contenido es estático a modo de ejemplo; en una aplicación real se llenaría dinámicamente -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Código</th>
+                        <th>Nombre</th>
+                        <th>SKU</th>
+                        <th>Precio</th>
+                        <th>Unidades</th>
+                        <th>Categoría</th>
+                        <th>Stock disponible</th>
+                        <th>Estado</th>
+                        <th>Acciones</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>INV‑001</td>
+                        <td>Producto de ejemplo</td>
+                        <td>123456789</td>
+                        <td>₡10,000</td>
+                        <td>50</td>
+                        <td>Electrónica</td>
+                        <td>Sí</td>
+                        <td>Activo</td>
+                        <td><a href="#">Ver detalle</a></td>
+                    </tr>
+                    <!-- Otros productos se listarían aquí -->
+                </tbody>
+            </table>
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+            </div>
+        </div>
+
+        <!-- Sección para editar un producto (INV‑003) -->
+        <div class="section">
+            <h3>Editar producto</h3>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="editarNombre">Nombre</label>
+                        <input type="text" id="editarNombre" name="editarNombre" placeholder="Nombre del producto">
+                    </div>
+                    <div>
+                        <label for="editarPrecio">Precio</label>
+                        <input type="number" id="editarPrecio" name="editarPrecio" min="0" step="0.01" placeholder="Nuevo precio">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="motivoPrecio">Motivo del cambio de precio</label>
+                        <input type="text" id="motivoPrecio" name="motivoPrecio" placeholder="Motivo">
+                    </div>
+                    <div>
+                        <label for="vigencia">Fecha de vigencia</label>
+                        <input type="date" id="vigencia" name="vigencia">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="stockMinimo">Stock mínimo</label>
+                        <input type="number" id="stockMinimo" name="stockMinimo" min="0" placeholder="Cantidad mínima">
+                    </div>
+                    <div>
+                        <label for="imagenProducto">Reemplazar imagen</label>
+                        <input type="file" id="imagenProducto" name="imagenProducto" accept="image/*">
+                    </div>
+                </div>
+                <button type="submit">Guardar cambios</button>
+            </form>
+        </div>
+
+        <!-- INV‑004: Registrar entrada de inventario -->
+        <div class="section">
+            <h3>Registrar entrada de inventario</h3>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="entradaProducto">Código de producto*</label>
+                        <input type="text" id="entradaProducto" name="entradaProducto" placeholder="Ej. INV‑001" required>
+                    </div>
+                    <div>
+                        <label for="entradaCantidad">Cantidad*</label>
+                        <input type="number" id="entradaCantidad" name="entradaCantidad" min="1" placeholder="Cantidad a ingresar" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="entradaProveedor">Proveedor</label>
+                        <input type="text" id="entradaProveedor" name="entradaProveedor" placeholder="Nombre del proveedor">
+                    </div>
+                    <div>
+                        <label for="entradaDocumento">Número de documento</label>
+                        <input type="text" id="entradaDocumento" name="entradaDocumento" placeholder="Factura o documento">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="entradaLote">Lote (opcional)</label>
+                        <input type="text" id="entradaLote" name="entradaLote" placeholder="Número de lote">
+                    </div>
+                    <div>
+                        <label for="entradaVencimiento">Fecha de vencimiento (opcional)</label>
+                        <input type="date" id="entradaVencimiento" name="entradaVencimiento">
+                    </div>
+                </div>
+                <button type="submit">Registrar entrada</button>
+            </form>
+        </div>
+
+        <!-- INV‑005: Registrar salida de inventario -->
+        <div class="section">
+            <h3>Registrar salida de inventario</h3>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="salidaProducto">Código de producto*</label>
+                        <input type="text" id="salidaProducto" name="salidaProducto" placeholder="Ej. INV‑001" required>
+                    </div>
+                    <div>
+                        <label for="salidaCantidad">Cantidad*</label>
+                        <input type="number" id="salidaCantidad" name="salidaCantidad" min="1" placeholder="Cantidad a descontar" required>
+                    </div>
+                    <div>
+                        <label for="salidaTipo">Tipo de salida*</label>
+                        <select id="salidaTipo" name="salidaTipo" required>
+                            <option value="">Seleccione</option>
+                            <option value="venta">Venta</option>
+                            <option value="merma">Merma</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="salidaMotivo">Motivo de merma</label>
+                        <input type="text" id="salidaMotivo" name="salidaMotivo" placeholder="Motivo de la merma">
+                    </div>
+                </div>
+                <button type="submit">Registrar salida</button>
+            </form>
+        </div>
+
+        <!-- INV‑006: Registrar ajuste de inventario -->
+        <div class="section">
+            <h3>Registrar ajuste de inventario</h3>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="ajusteProducto">Código de producto*</label>
+                        <input type="text" id="ajusteProducto" name="ajusteProducto" placeholder="Ej. INV‑001" required>
+                    </div>
+                    <div>
+                        <label for="ajusteCantidad">Cantidad de ajuste*</label>
+                        <input type="number" id="ajusteCantidad" name="ajusteCantidad" step="1" placeholder="Positivo o negativo" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div>
+                        <label for="ajusteMotivo">Motivo del ajuste*</label>
+                        <input type="text" id="ajusteMotivo" name="ajusteMotivo" placeholder="Describa el motivo" required>
+                    </div>
+                </div>
+                <button type="submit">Registrar ajuste</button>
+            </form>
+        </div>
+
+        <!-- INV‑007: Desactivar, reactivar o eliminar producto -->
+        <div class="section">
+            <h3>Desactivar, reactivar o eliminar producto</h3>
+            <form>
+                <div class="form-row">
+                    <div>
+                        <label for="accionProductoCodigo">Código de producto*</label>
+                        <input type="text" id="accionProductoCodigo" name="accionProductoCodigo" placeholder="Ej. INV‑001" required>
+                    </div>
+                    <div>
+                        <label for="accionProducto">Acción*</label>
+                        <select id="accionProducto" name="accionProducto" required>
+                            <option value="">Seleccione</option>
+                            <option value="desactivar">Desactivar</option>
+                            <option value="reactivar">Reactivar</option>
+                            <option value="eliminar">Eliminar</option>
+                        </select>
+                    </div>
+                </div>
+                <button type="submit">Ejecutar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

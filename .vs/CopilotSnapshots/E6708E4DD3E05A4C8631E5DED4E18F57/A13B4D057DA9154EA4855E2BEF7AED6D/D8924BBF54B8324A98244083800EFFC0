@@ -1,0 +1,312 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Data.SqlClient;
+using System.Web.Mvc;
+using Newtonsoft.Json;
+
+namespace MrLee.UI.Controllers
+{
+    public class SmokeController : Controller
+    {
+        private string _connectionString;
+
+        public SmokeController()
+        {
+            _connectionString = ConfigurationManager.ConnectionStrings["MrLeeDB"]?.ConnectionString;
+        }
+
+        /// <summary>
+        /// GET /Smoke/Health
+        /// Verifica conexión básica a BD: SELECT 1
+        /// </summary>
+        public ActionResult Health()
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(_connectionString))
+                {
+                    return Json(new { ok = false, error = "Conexión no configurada" }, JsonRequestBehavior.AllowGet);
+                }
+
+                using (var conn = new SqlConnection(_connectionString))
+                {
+                    conn.Open();
+                    using (var cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = "SELECT 1";
+                        var result = cmd.ExecuteScalar();
+                    }
+                    conn.Close();
+                }
+
+                return Json(new { ok = true }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { ok = false, error = ex.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        /// <summary>
+        /// GET /Smoke/Run?user=admin_prueba&ip=127.0.0.1
+        /// Ejecuta CRUD sobre dbo.productos y retorna bitácora
+        /// </summary>
+        public ActionResult Run(string user = "system", string ip = "0.0.0.0")
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(_connectionString))
+                {
+                    return Json(new { ok = false, error = "Conexión no configurada" }, JsonRequestBehavior.AllowGet);
+                }
+
+                long idProducto = 0;
+                var bitacora = new List<dynamic>();
+
+                using (var conn = new SqlConnection(_connectionString))
+                {
+                    conn.Open();
+                    using (var transaction = conn.BeginTransaction())
+                    {
+                        try
+                        {
+                            // 1. Setear contexto de auditoría
+                            SetSessionContext(conn, transaction, "audit_user", user);
+                            SetSessionContext(conn, transaction, "audit_ip", ip);
+
+                            // 2. Limpiar producto de prueba si existe
+                            DeleteProducto(conn, transaction, "P-999");
+
+                            // 3. INSERT producto
+                            idProducto = InsertProducto(conn, transaction, "P-999", "Producto Smoke Test", "Pruebas", 123.45m, 5);
+
+                            // 4. UPDATE producto
+                            UpdateProducto(conn, transaction, idProducto, "Producto Smoke Actualizado", 200.00m, 7);
+
+                            // 5. DELETE producto
+                            DeleteProductoById(conn, transaction, idProducto);
+
+                            transaction.Commit();
+                        }
+                        catch (Exception ex)
+                        {
+                            transaction.Rollback();
+                            throw;
+                        }
+                    }
+
+                    // 6. Leer bitácora (después de commit)
+                    bitacora = GetBitacoraProductos(conn);
+                }
+
+                return Json(new
+                {
+                    ok = true,
+                    idProducto = idProducto,
+                    bitacora = bitacora
+                }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { ok = false, error = ex.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        /// <summary>
+        /// GET /Smoke/BitacoraUltimo
+        /// Retorna el último registro de bitácora
+        /// </summary>
+        public ActionResult BitacoraUltimo()
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(_connectionString))
+                {
+                    return Json(new { ok = false, error = "Conexión no configurada" }, JsonRequestBehavior.AllowGet);
+                }
+
+                using (var conn = new SqlConnection(_connectionString))
+                {
+                    conn.Open();
+                    using (var cmd = conn.CreateCommand())
+                    {
+                        cmd.CommandText = @"
+                            SELECT TOP 1
+                              id_bitacora,
+                              tabla_afectada,
+                              id_registro,
+                              accion,
+                              modulo,
+                              usuario_responsable,
+                              fecha_hora,
+                              datos_anteriores,
+                              datos_nuevos,
+                              ip_origen,
+                              descripcion
+                            FROM dbo.bitacora_auditoria
+                            ORDER BY id_bitacora DESC
+                        ";
+
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                var record = new
+                                {
+                                    id_bitacora = reader["id_bitacora"],
+                                    tabla_afectada = reader["tabla_afectada"],
+                                    id_registro = reader["id_registro"],
+                                    accion = reader["accion"],
+                                    modulo = reader["modulo"],
+                                    usuario_responsable = reader["usuario_responsable"],
+                                    fecha_hora = reader["fecha_hora"],
+                                    datos_anteriores = reader["datos_anteriores"],
+                                    datos_nuevos = reader["datos_nuevos"],
+                                    ip_origen = reader["ip_origen"],
+                                    descripcion = reader["descripcion"]
+                                };
+
+                                return Json(new { ok = true, data = record }, JsonRequestBehavior.AllowGet);
+                            }
+                        }
+                    }
+                }
+
+                return Json(new { ok = true, data = (object)null }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return Json(new { ok = false, error = ex.Message }, JsonRequestBehavior.AllowGet);
+            }
+        }
+
+        // ==================== Métodos auxiliares ====================
+
+        private void SetSessionContext(SqlConnection conn, SqlTransaction transaction, string key, string value)
+        {
+            using (var cmd = conn.CreateCommand())
+            {
+                cmd.Transaction = transaction;
+                cmd.CommandText = "EXEC sp_set_session_context @key=N'" + key + "', @value=@val";
+                cmd.Parameters.AddWithValue("@val", value);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        private void DeleteProducto(SqlConnection conn, SqlTransaction transaction, string codigo)
+        {
+            using (var cmd = conn.CreateCommand())
+            {
+                cmd.Transaction = transaction;
+                cmd.CommandText = "DELETE FROM dbo.productos WHERE codigo = @codigo";
+                cmd.Parameters.AddWithValue("@codigo", codigo);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        private long InsertProducto(SqlConnection conn, SqlTransaction transaction, string codigo, string nombre, string categoria, decimal precio, int stock)
+        {
+            using (var cmd = conn.CreateCommand())
+            {
+                cmd.Transaction = transaction;
+                cmd.CommandText = @"
+                    INSERT INTO dbo.productos (codigo, nombre, categoria, precio, stock, activo)
+                    OUTPUT INSERTED.id_producto
+                    VALUES (@codigo, @nombre, @categoria, @precio, @stock, 1)
+                ";
+
+                cmd.Parameters.AddWithValue("@codigo", codigo);
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                cmd.Parameters.AddWithValue("@categoria", categoria ?? (object)DBNull.Value);
+                cmd.Parameters.AddWithValue("@precio", precio);
+                cmd.Parameters.AddWithValue("@stock", stock);
+
+                var result = cmd.ExecuteScalar();
+                return result != null ? Convert.ToInt64(result) : 0;
+            }
+        }
+
+        private void UpdateProducto(SqlConnection conn, SqlTransaction transaction, long idProducto, string nombre, decimal precio, int stock)
+        {
+            using (var cmd = conn.CreateCommand())
+            {
+                cmd.Transaction = transaction;
+                cmd.CommandText = @"
+                    UPDATE dbo.productos
+                    SET nombre = @nombre, precio = @precio, stock = @stock
+                    WHERE id_producto = @id
+                ";
+
+                cmd.Parameters.AddWithValue("@nombre", nombre);
+                cmd.Parameters.AddWithValue("@precio", precio);
+                cmd.Parameters.AddWithValue("@stock", stock);
+                cmd.Parameters.AddWithValue("@id", idProducto);
+
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        private void DeleteProductoById(SqlConnection conn, SqlTransaction transaction, long idProducto)
+        {
+            using (var cmd = conn.CreateCommand())
+            {
+                cmd.Transaction = transaction;
+                cmd.CommandText = "DELETE FROM dbo.productos WHERE id_producto = @id";
+                cmd.Parameters.AddWithValue("@id", idProducto);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        private List<dynamic> GetBitacoraProductos(SqlConnection conn)
+        {
+            var result = new List<dynamic>();
+
+            using (var cmd = conn.CreateCommand())
+            {
+                cmd.CommandText = @"
+                    SELECT TOP 10
+                      id_bitacora,
+                      tabla_afectada,
+                      id_registro,
+                      accion,
+                      modulo,
+                      usuario_responsable,
+                      fecha_hora,
+                      datos_anteriores,
+                      datos_nuevos,
+                      ip_origen,
+                      descripcion
+                    FROM dbo.bitacora_auditoria
+                    WHERE tabla_afectada = 'productos'
+                    ORDER BY id_bitacora DESC
+                ";
+
+                using (var reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        dynamic record = new
+                        {
+                            id_bitacora = reader["id_bitacora"],
+                            tabla_afectada = reader["tabla_afectada"],
+                            id_registro = reader["id_registro"],
+                            accion = reader["accion"],
+                            modulo = reader["modulo"],
+                            usuario_responsable = reader["usuario_responsable"],
+                            fecha_hora = reader["fecha_hora"],
+                            datos_anteriores = reader["datos_anteriores"],
+                            datos_nuevos = reader["datos_nuevos"],
+                            ip_origen = reader["ip_origen"],
+                            descripcion = reader["descripcion"]
+                        };
+                        result.Add(record);
+                    }
+                }
+            }
+
+            return result;
+        }
+    }
+}

@@ -1,0 +1,48 @@
+﻿@{
+    ViewBag.Title = "Productos";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2>Productos</h2>
+    
+    @if (ViewBag.Error != null)
+    {
+        <div class="alert alert-danger">@ViewBag.Error</div>
+    }
+
+    @Html.ActionLink("Crear Nuevo", "Create", new { @class = "btn btn-primary mb-3" })
+
+    <table class="table table-striped table-hover">
+        <thead class="table-dark">
+            <tr>
+                <th>ID</th>
+                <th>Código</th>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Precio</th>
+                <th>Stock</th>
+                <th>Activo</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var producto in Model)
+            {
+                <tr>
+                    <td>@producto.id_producto</td>
+                    <td>@producto.codigo</td>
+                    <td>@producto.nombre</td>
+                    <td>@producto.categoria</td>
+                    <td>¢ @String.Format("{0:N2}", producto.precio)</td>
+                    <td>@producto.stock</td>
+                    <td>@(producto.activo == true ? "Sí" : "No")</td>
+                    <td>
+                        @Html.ActionLink("Editar", "Edit", new { id = producto.id_producto }, new { @class = "btn btn-sm btn-warning" })
+                        @Html.ActionLink("Eliminar", "Delete", new { id = producto.id_producto }, new { @class = "btn btn-sm btn-danger" })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
