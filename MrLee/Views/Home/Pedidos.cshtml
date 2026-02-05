@@ -1,0 +1,146 @@
+﻿@model List<MrLee.Models.DTOs.PedidoResponseDto>
+@{
+    ViewData["Title"] = "Listado de Pedidos";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1> Mr Lee - Sistema de Pedidos</h1>
+            <nav>
+                <a href="@Url.Action("Index", "Home")" class="btn-nav">Nuevo Pedido</a>
+                <a href="@Url.Action("Pedidos", "Home")" class="btn-nav active">Ver Pedidos</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <div class="card">
+                <div class="card-header">
+                    <h2> Listado de Pedidos</h2>
+                    <p class="subtitle">Total de pedidos: @Model.Count</p>
+                </div>
+
+                @if (Model.Count == 0)
+                {
+                    <div class="empty-state">
+                        <div class="empty-icon">📭</div>
+                        <h3>No hay pedidos registrados</h3>
+                        <p>Crea tu primer pedido para comenzar</p>
+                        <a href="@Url.Action("Index", "Home")" class="btn btn-primary">
+                            ➕ Crear Pedido
+                        </a>
+                    </div>
+                }
+                else
+                {
+                    <div class="timeline">
+                        @foreach (var pedido in Model)
+                        {
+                            <div class="timeline-item">
+                                <div class="timeline-marker estado-@pedido.Estado.ToLower()">
+                                    @switch (pedido.Estado)
+                                    {
+                                        case "Creado":
+                                            @:✨
+                                            break;
+                                        case "En Proceso":
+                                            @:🔄
+                                            break;
+                                        case "Completado":
+                                            @:✅
+                                            break;
+                                        default:
+                                            @:📌
+                                            break;
+                                    }
+                                </div>
+
+                                <div class="timeline-content">
+                                    <div class="pedido-header">
+                                        <div>
+                                            <h3>Pedido #@pedido.Id</h3>
+                                            <span class="badge badge-@pedido.Prioridad.ToLower()">
+                                                @pedido.Prioridad
+                                            </span>
+                                            <span class="badge badge-estado badge-@pedido.Estado.ToLower().Replace(" ", "-")">
+                                                @pedido.Estado
+                                            </span>
+                                        </div>
+                                        <div class="pedido-fecha">
+                                            <small>Creado: @pedido.FechaCreacion.ToString("dd/MM/yyyy HH:mm")</small>
+                                        </div>
+                                    </div>
+
+                                    <div class="pedido-details">
+                                        <div class="detail-row">
+                                            <span class="detail-label"> Cliente:</span>
+                                            <span class="detail-value">@pedido.Cliente</span>
+                                        </div>
+
+                                        <div class="detail-row">
+                                            <span class="detail-label"> Productos:</span>
+                                            <span class="detail-value">@pedido.Productos</span>
+                                        </div>
+
+                                        <div class="detail-row">
+                                            <span class="detail-label">Cantidad:</span>
+                                            <span class="detail-value">@pedido.Cantidades</span>
+                                        </div>
+
+                                        <div class="detail-row">
+                                            <span class="detail-label"> Dirección:</span>
+                                            <span class="detail-value">@pedido.Direccion</span>
+                                        </div>
+
+                                        <div class="detail-row">
+                                            <span class="detail-label"> Teléfono:</span>
+                                            <span class="detail-value">@pedido.Telefono</span>
+                                        </div>
+
+                                        <div class="detail-row">
+                                            <span class="detail-label"> Entrega:</span>
+                                            <span class="detail-value">@pedido.Fecha.ToString("dd/MM/yyyy")</span>
+                                        </div>
+
+                                        @if (pedido.DistanciaKm.HasValue)
+                                        {
+                                            <div class="detail-row">
+                                                <span class="detail-label"> Distancia:</span>
+                                                <span class="detail-value">@pedido.DistanciaKm.Value.ToString("F1") km</span>
+                                            </div>
+                                        }
+
+                                        @if (!string.IsNullOrEmpty(pedido.Responsable))
+                                        {
+                                            <div class="detail-row">
+                                                <span class="detail-label">Responsable:</span>
+                                                <span class="detail-value">@pedido.Responsable</span>
+                                            </div>
+                                        }
+
+                                        @if (!string.IsNullOrEmpty(pedido.Notas))
+                                        {
+                                            <div class="pedido-notas">
+                                                <strong>Notas:</strong>
+                                                <p>@pedido.Notas</p>
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </main>
+    </div>
+</body>
+</html>

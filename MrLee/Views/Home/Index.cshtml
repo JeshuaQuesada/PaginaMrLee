@@ -1,0 +1,162 @@
+﻿@{
+    ViewData["Title"] = "Gestión de Pedidos - Mr Lee";
+}
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1> Mr Lee - Sistema de Pedidos</h1>
+            <nav>
+                <a href="@Url.Action("Index", "Home")" class="btn-nav active">Nuevo Pedido</a>
+                <a href="@Url.Action("Pedidos", "Home")" class="btn-nav">Ver Pedidos</a>
+            </nav>
+        </header>
+
+        <main class="main-content">
+            <!-- Notificaciones -->
+            <div id="notification" class="notification hidden"></div>
+
+            <!-- Formulario de Pedido -->
+            <div class="card">
+                <div class="card-header">
+                    <h2> Crear Nuevo Pedido</h2>
+                    <p class="subtitle">Complete los datos del pedido</p>
+                </div>
+
+                <form id="formPedido" class="form">
+                    <!-- Sección Cliente -->
+                    <div class="form-section">
+                        <h3> Información del Cliente</h3>
+
+                        <div class="form-group">
+                            <label for="tipoCliente">Tipo de Cliente</label>
+                            <div class="radio-group">
+                                <label class="radio-label">
+                                    <input type="radio" name="tipoCliente" value="existente" checked>
+                                    Cliente Existente
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="tipoCliente" value="nuevo">
+                                    Nuevo Cliente
+                                </label>
+                            </div>
+                        </div>
+
+                        <div id="clienteExistente" class="form-group">
+                            <label for="clienteId">Seleccionar Cliente *</label>
+                            <select id="clienteId" name="clienteId" class="form-control">
+                                <option value="">-- Seleccione un cliente --</option>
+                                @foreach (var cliente in ViewBag.Clientes)
+                                {
+                                    <option value="@cliente.Id">@cliente.Nombre</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div id="clienteNuevo" class="form-group hidden">
+                            <label for="clienteNombre">Nombre del Cliente *</label>
+                            <input type="text" id="clienteNombre" name="clienteNombre"
+                                   class="form-control" placeholder="Ej: Juan Pérez">
+                        </div>
+                    </div>
+
+                    <!-- Sección Pedido -->
+                    <div class="form-section">
+                        <h3> Detalles del Pedido</h3>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="productos">Productos *</label>
+                                <input type="text" id="productos" name="productos"
+                                       class="form-control" placeholder="Ej: Arroz frito, Chow mein" required>
+                                <small>Ingrese los productos separados por coma</small>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="cantidades">Cantidad Total *</label>
+                                <input type="number" id="cantidades" name="cantidades"
+                                       class="form-control" min="1" placeholder="Ej: 3" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="prioridad">Prioridad *</label>
+                                <select id="prioridad" name="prioridad" class="form-control">
+                                    <option value="Baja">Baja</option>
+                                    <option value="Normal" selected>Normal</option>
+                                    <option value="Alta">Alta</option>
+                                    <option value="Urgente">Urgente</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="fecha">Fecha de Entrega *</label>
+                                <input type="date" id="fecha" name="fecha" class="form-control" required>
+                                <small>Máximo 2 meses adelante</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sección Entrega -->
+                    <div class="form-section">
+                        <h3> Información de Entrega</h3>
+
+                        <div class="form-group">
+                            <label for="direccion">Dirección *</label>
+                            <input type="text" id="direccion" name="direccion"
+                                   class="form-control" placeholder="Ej: San José, Sabana Norte" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="telefono">Teléfono *</label>
+                                <input type="tel" id="telefono" name="telefono"
+                                       class="form-control" placeholder="Ej: 8888-8888" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="distancia">Distancia (km)</label>
+                                <input type="number" id="distancia" name="distancia"
+                                       class="form-control" step="0.1" max="10" placeholder="Ej: 5.5">
+                                <small>Máximo 10 km</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sección Notas -->
+                    <div class="form-section">
+                        <h3>Notas y Observaciones</h3>
+
+                        <div class="form-group">
+                            <label for="notas">Notas adicionales</label>
+                            <textarea id="notas" name="notas" class="form-control"
+                                      rows="3" placeholder="Observaciones del pedido..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Botones -->
+                    <div class="form-actions">
+                        <button type="button" id="btnLimpiar" class="btn btn-secondary">
+                             Limpiar
+                        </button>
+                        <button type="submit" class="btn btn-primary">
+                             Crear Pedido
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+
+    <script src="~/js/pedidos.js"></script>
+</body>
+</html>
