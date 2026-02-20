@@ -1,0 +1,73 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.EntityFrameworkCore;
+using MrLee.Web.Data;
+using MrLee.Web.Security;
+using MrLee.Web.Services;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddControllersWithViews()
+    .AddRazorRuntimeCompilation();
+
+builder.Services.AddHttpContextAccessor();
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+    .AddCookie(options =>
+    {
+        options.LoginPath = "/Account/Login";
+        options.AccessDeniedPath = "/Account/AccessDenied";
+        options.Cookie.Name = "MrLee.Auth";
+        options.SlidingExpiration = true;
+    });
+
+builder.Services.AddAuthorization(options =>
+{
+    // Permission-based policies
+    foreach (var p in PermissionCatalog.All)
+    {
+        options.AddPolicy(p, policy =>
+            policy.Requirements.Add(new PermissionRequirement(p)));
+    }
+});
+
+// Scoped (por request)
+builder.Services.AddScoped<IPermissionService, PermissionService>();
+builder.Services.AddScoped<IAuthorizationHandler, PermissionHandler>();
+builder.Services.AddScoped<PasswordService>();
+builder.Services.AddScoped<AuditService>();
+builder.Services.AddScoped<InventoryService>();
+builder.Services.AddScoped<OrderService>();
+
+var app = builder.Build();
+
+// Ensure DB + seed (admin/roles/perms) on startup (safe for dev/demo)
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    db.Database.Migrate();
+    await SeedData.EnsureSeedAsync(scope.ServiceProvider);
+}
+
+if (!app.Environment.IsDevelopment())
+{
+    app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
+}
+
+app.UseHttpsRedirection();
+app.UseStaticFiles();
+
+app.UseRouting();
+
+app.UseAuthentication();
+app.UseAuthorization();
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.Run();
