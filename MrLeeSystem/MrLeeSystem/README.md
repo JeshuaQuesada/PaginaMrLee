@@ -8,7 +8,7 @@ Este ZIP incluye un proyecto **ASP.NET Core MVC (net8.0)** con **arquitectura MV
 
 - **Usuarios y accesos**: CRUD de usuarios, roles/permisos, activar/desactivar, reset de contraseña y bitácora.
 
-> Los requerimientos se tomaron del documento `Requerimientos.pdf` 
+
 
 ---
 
