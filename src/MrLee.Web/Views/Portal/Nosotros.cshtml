@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "Sobre nosotros";
+    Layout = "~/Views/Portal/_LayoutPortal.cshtml";
+}
+
+<!-- Hero -->
+<div class="portal-hero" style="padding:4rem 0 3rem;">
+    <div class="container">
+        <div class="text-uppercase fw-bold small mb-2" style="color:var(--primary);letter-spacing:.12rem;">Nuestra historia</div>
+        <h1 class="display-5 mb-3" style="color:#fff;">El sabor auténtico de<br />Mr Lee 🥐</h1>
+        <p class="lead mb-0" style="color:rgba(255,255,255,.85);">Más de 6 años horneando con pasión, ingredientes frescos y el amor que cada pieza merece.</p>
+    </div>
+</div>
+
+<!-- Historia -->
+<div class="container py-5">
+    <div class="row g-5 align-items-center mb-5">
+        <div class="col-lg-6">
+            <img src="/theme/img/about-1.jpg" class="img-fluid rounded-4 shadow" alt="Mr Lee panadería" style="max-height:380px;object-fit:cover;width:100%;" />
+        </div>
+        <div class="col-lg-6">
+            <div class="text-uppercase fw-bold small mb-2" style="color:var(--primary);letter-spacing:.12rem;">Quiénes somos</div>
+            <h2 class="display-6 mb-3">Una panadería familiar con alma artesanal</h2>
+            <p class="mb-3">Mr Lee nació en 2018 como un pequeño taller de pan en San José, Costa Rica. Lo que empezó como una pasión personal del chef Lee se convirtió rápidamente en el referente de panadería artesanal de la zona.</p>
+            <p class="mb-3">Cada día madrugamos para que cuando llegués a buscarnos — o para cuando tu pedido llegue a tu puerta — el pan esté recién salido del horno, crujiente por fuera y suave por dentro.</p>
+            <p class="mb-0">Usamos harinas seleccionadas, levadura natural y recetas que han pasado por años de perfeccionamiento. No hay atajos en nuestra cocina.</p>
+        </div>
+    </div>
+
+    <!-- Valores -->
+    <div class="row g-4 mb-5">
+        <div class="col-12">
+            <h3 class="text-center mb-4">Lo que nos mueve</h3>
+        </div>
+        <div class="col-md-4">
+            <div class="portal-card p-4 h-100 text-center">
+                <div style="font-size:2.5rem;" class="mb-3">🌾</div>
+                <h5>Ingredientes naturales</h5>
+                <p class="text-muted mb-0">Trabajamos con proveedores locales. Sin conservantes, sin aditivos artificiales. Solo lo que la naturaleza da.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portal-card p-4 h-100 text-center">
+                <div style="font-size:2.5rem;" class="mb-3">🔥</div>
+                <h5>Horneado diario</h5>
+                <p class="text-muted mb-0">Nuestros hornos arrancan a las 4 a.m. Para cuando abrimos, todo está fresco. Nunca vendemos de un día para otro.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="portal-card p-4 h-100 text-center">
+                <div style="font-size:2.5rem;" class="mb-3">❤️</div>
+                <h5>Hecho con amor</h5>
+                <p class="text-muted mb-0">Cada baguette, cada croissant y cada pastel tiene detrás al equipo de Mr Lee poniendo el corazón en cada detalle.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Productos destacados -->
+    <div class="row g-5 align-items-center mb-5">
+        <div class="col-lg-6 order-lg-2">
+            <img src="/theme/img/about-2.jpg" class="img-fluid rounded-4 shadow" alt="Productos Mr Lee" style="max-height:380px;object-fit:cover;width:100%;" />
+        </div>
+        <div class="col-lg-6 order-lg-1">
+            <div class="text-uppercase fw-bold small mb-2" style="color:var(--primary);letter-spacing:.12rem;">Nuestros productos</div>
+            <h2 class="display-6 mb-3">Desde el pan de cada día hasta el pastel de tu celebración</h2>
+            <ul class="list-unstyled mb-4">
+                <li class="mb-2">🥖 <strong>Panadería clásica</strong> — Baguette, ciabatta, pan integral, pan de molde</li>
+                <li class="mb-2">🥐 <strong>Bollería francesa</strong> — Croissants, pain au chocolat, brioches</li>
+                <li class="mb-2">🧁 <strong>Repostería</strong> — Galletas, brownies, muffins, tartaletas</li>
+                <li class="mb-2">🎂 <strong>Pedidos especiales</strong> — Tortas y pasteles personalizados para eventos</li>
+                <li class="mb-2">🥟 <strong>Salados</strong> — Empanadas, quiches, pan relleno</li>
+            </ul>
+            <a asp-action="HacerPedido" class="btn btn-primary btn-lg">🛒 Hacer un pedido</a>
+        </div>
+    </div>
+
+    <!-- Datos de contacto -->
+    <div class="portal-card p-4 p-lg-5">
+        <div class="row g-4 text-center">
+            <div class="col-12">
+                <h3 class="mb-4">¿Dónde encontrarnos?</h3>
+            </div>
+            <div class="col-md-4">
+                <div style="font-size:2rem;" class="mb-2">📍</div>
+                <h6>Dirección</h6>
+                <p class="text-muted small mb-0">Av. Principal 100, San José<br />Costa Rica</p>
+            </div>
+            <div class="col-md-4">
+                <div style="font-size:2rem;" class="mb-2">🕐</div>
+                <h6>Horario</h6>
+                <p class="text-muted small mb-0">Lunes a viernes: 6:00 a.m. – 7:00 p.m.<br />Sábados: 6:00 a.m. – 2:00 p.m.</p>
+            </div>
+            <div class="col-md-4">
+                <div style="font-size:2rem;" class="mb-2">📞</div>
+                <h6>Contacto</h6>
+                <p class="text-muted small mb-0">Teléfono: 2222-3333<br />WhatsApp: 8888-0000</p>
+            </div>
+        </div>
+    </div>
+</div>

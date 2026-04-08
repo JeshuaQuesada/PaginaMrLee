@@ -1,0 +1,140 @@
+﻿/*  Body  */
+.portal-body {
+    background: linear-gradient(180deg, #fffdf9 0%, #fdf5eb 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.portal-main {
+    flex: 1;
+}
+
+/*  Navbar portal */
+.portal-nav {
+    background: rgba(30,25,22,.96);
+    box-shadow: 0 4px 24px rgba(0,0,0,.15);
+}
+
+    .portal-nav .navbar-brand,
+    .portal-nav .nav-link,
+    .portal-nav .navbar-text {
+        color: #f5f0ea !important;
+    }
+
+        .portal-nav .nav-link:hover {
+            color: var(--primary) !important;
+        }
+
+/*  Card genérica del portal  */
+.portal-card {
+    background: #fff;
+    border: 1px solid rgba(84,84,84,.12);
+    border-radius: 1.25rem;
+    box-shadow: 0 8px 32px rgba(30,25,22,.07);
+}
+
+/* Hero sección pública  */
+.portal-hero {
+    background: linear-gradient(rgba(30,25,22,.62), rgba(30,25,22,.70)), url('/theme/img/carousel-1.jpg') center/cover no-repeat;
+    color: #fff;
+    padding: 5rem 0 4rem;
+}
+
+    .portal-hero h1,
+    .portal-hero p {
+        color: #fff;
+    }
+
+/*  Icono feature  */
+.portal-icon {
+    font-size: 2.5rem;
+    display: block;
+}
+
+/* Avatar iniciales  */
+.portal-avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: var(--primary);
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Auth shell (login / registro centrado)  */
+.portal-auth-shell {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+/*  Footer portal  */
+.portal-footer {
+    background: var(--dark);
+    color: rgba(255,255,255,.6);
+}
+
+/*  Progreso de pedido ─ */
+.progress-line {
+    position: absolute;
+    top: 18px;
+    left: 10%;
+    right: 10%;
+    height: 3px;
+    background: #dee2e6;
+    z-index: 0;
+}
+
+.progress-step {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #dee2e6;
+    color: #6c757d;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transition: background .3s;
+}
+
+    .progress-step.active {
+        background: var(--primary);
+        color: #fff;
+    }
+
+/*Logo circle  */
+.portal-logo-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid rgba(234,166,54,.5);
+    background: var(--primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+    .portal-logo-circle img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+    }
+
+    .portal-logo-circle span {
+        color: #fff;
+        font-weight: 700;
+        font-size: .85rem;
+    }
+ 
+ 

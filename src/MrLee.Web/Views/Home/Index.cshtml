@@ -1,0 +1,66 @@
+@{
+    ViewData["Title"] = "Inicio";
+}
+
+<div class="section-panel mb-4">
+    <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+            <div class="text-uppercase text-primary fw-bold small mb-2">Mr Lee Dashboard</div>
+            <h2 class="display-6 mb-3">Gestión integral de la panadería Mr Lee</h2>
+            <p class="lead mb-4">Controlá pedidos, inventario de ingredientes y productos, ingresos diarios y el equipo de trabajo — todo desde un solo panel administrativo.</p>
+            <div class="d-flex flex-wrap gap-2">
+                <a class="btn btn-primary" asp-controller="Orders" asp-action="Index">Ver pedidos</a>
+                <a class="btn btn-outline-primary" asp-controller="Inventory" asp-action="Index">Explorar inventario</a>
+                <a class="btn btn-outline-success" asp-controller="OperatingIncome" asp-action="Index">Ver ingresos</a>
+            </div>
+        </div>
+        <div class="col-lg-5">
+            <img src="~/theme/img/about-1.jpg" class="img-fluid rounded-4 shadow-sm" alt="Mr Lee Panadería" />
+        </div>
+    </div>
+</div>
+
+<div class="row g-4 mb-4">
+    <div class="col-md-6 col-xl-3">
+        <div class="home-stat">
+            <div class="stat-icon mb-3">🥖</div>
+            <h3 class="h5">Pedidos</h3>
+            <p class="mb-0">Seguimiento de órdenes de panadería desde que se reciben hasta la entrega.</p>
+        </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+        <div class="home-stat">
+            <div class="stat-icon mb-3">📦</div>
+            <h3 class="h5">Inventario</h3>
+            <p class="mb-0">Control de harinas, insumos y productos horneados con alertas de stock.</p>
+        </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+        <div class="home-stat">
+            <div class="stat-icon mb-3">💰</div>
+            <h3 class="h5">Ingresos</h3>
+            <p class="mb-0">Ventas diarias, cobros y exportación de reportes por período.</p>
+        </div>
+    </div>
+    <div class="col-md-6 col-xl-3">
+        <div class="home-stat">
+            <div class="stat-icon mb-3">👥</div>
+            <h3 class="h5">Empleados</h3>
+            <p class="mb-0">Gestión de panaderos, cajeros y repartidores con control de vacaciones.</p>
+        </div>
+    </div>
+</div>
+
+<div class="section-panel">
+    <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+            <img src="~/theme/img/about-2.jpg" class="img-fluid rounded-4 shadow-sm" alt="Horno Mr Lee" />
+        </div>
+        <div class="col-lg-6">
+            <div class="text-uppercase text-primary fw-bold small mb-2">Portal de clientes</div>
+            <h3 class="display-6 mb-3">Tus clientes también tienen su espacio</h3>
+            <p>El portal de clientes permite que tus compradores vean sus pedidos, gestionen su perfil y configuren notificaciones — todo integrado al mismo sistema.</p>
+            <a class="btn btn-primary" asp-controller="Portal" asp-action="Index">Ir al portal</a>
+        </div>
+    </div>
+</div>

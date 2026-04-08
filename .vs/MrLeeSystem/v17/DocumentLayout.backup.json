@@ -1,0 +1,419 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\_layoutportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\_layoutportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\portalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\portalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\wwwroot\\theme\\css\\portal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\wwwroot\\theme\\css\\portal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\hacerpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\hacerpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\models\\clientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\models\\clientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 66,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T22:42:40.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "portal.css",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "RelativeToolTip": "src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-08T22:14:23.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T22:13:07.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PortalController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T22:11:05.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ClienteModels.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\ClienteModels.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Models\\ClienteModels.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\ClienteModels.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Models\\ClienteModels.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAwwHAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T22:09:29.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HacerPedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T22:08:32.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Nosotros.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswGMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T22:08:09.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutPortal.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T22:07:22.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAAB+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-08T22:26:43.271Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

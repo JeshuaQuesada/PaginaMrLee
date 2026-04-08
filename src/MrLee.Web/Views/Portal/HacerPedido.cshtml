@@ -1,0 +1,204 @@
+﻿@model MrLee.Web.Models.PedidoClienteVm
+@{
+    ViewData["Title"] = "Hacer pedido";
+    Layout = "~/Views/Portal/_LayoutPortal.cshtml";
+}
+
+<div class="container py-4">
+    <div class="row g-4">
+
+        <!-- Formulario pedido -->
+        <div class="col-lg-7">
+            <div class="portal-card p-4">
+                <h4 class="mb-4" style="color:var(--primary);">🛒 Nuevo pedido</h4>
+
+                <form asp-action="HacerPedido" method="post" id="formPedido">
+                    @Html.AntiForgeryToken()
+                    <div asp-validation-summary="All" class="alert alert-danger small mb-3"></div>
+
+                    <h6 class="text-muted mb-3">Datos de entrega</h6>
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label class="form-label fw-medium">Nombre completo <span class="text-danger">*</span></label>
+                            <input asp-for="NombreCliente" class="form-control" />
+                            <span asp-validation-for="NombreCliente" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-medium">Teléfono <span class="text-danger">*</span></label>
+                            <input asp-for="TelefonoCliente" class="form-control" placeholder="8888-0000" />
+                            <span asp-validation-for="TelefonoCliente" class="text-danger small"></span>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-medium">Dirección de entrega <span class="text-danger">*</span></label>
+                            <input asp-for="DireccionEntrega" class="form-control"
+                                   placeholder="Provincia, cantón, señas exactas..." />
+                            <span asp-validation-for="DireccionEntrega" class="text-danger small"></span>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-medium">Notas adicionales</label>
+                            <textarea asp-for="Notas" class="form-control" rows="2"
+                                      placeholder="Alergias, preferencias, hora preferida de entrega..."></textarea>
+                        </div>
+                    </div>
+
+                    <hr />
+                    <h6 class="text-muted mb-3">Productos</h6>
+
+                    <div id="lineasPedido">
+                        @for (int i = 0; i < Model.Items.Count; i++)
+                        {
+                            <div class="row g-2 mb-2 linea-pedido">
+                                <div class="col-7">
+                                    <select name="Items[@i].ProductoId" class="form-select select-producto"
+                                            onchange="actualizarPrecio(this)">
+                                        <option value="">-- Seleccionar producto --</option>
+                                        @foreach (var p in ViewBag.Productos as List<MrLee.Web.Models.Product> ?? new())
+                                        {
+                                            <option value="@p.Id"
+                                                    data-precio="@p.UnitPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture)"
+                                                    data-unidad="@p.Unit"
+                                                    selected="@(Model.Items[i].ProductoId == p.Id)">
+                                                @p.Name — ₡ @p.UnitPrice.ToString("N2") / @p.Unit
+                                            </option>
+                                        }
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <input type="number" name="Items[@i].Cantidad"
+                                           value="@Model.Items[i].Cantidad"
+                                           class="form-control input-cantidad" min="0.5" step="0.5"
+                                           placeholder="Cant." onchange="calcularTotal()" />
+                                </div>
+                                <div class="col-2 d-flex align-items-center">
+                                    <button type="button" class="btn btn-outline-danger btn-sm w-100"
+                                            onclick="quitarLinea(this)">
+                                        ✕
+                                    </button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+
+                    <button type="button" class="btn btn-outline-success btn-sm mb-4"
+                            onclick="agregarLinea()">
+                        ＋ Agregar producto
+                    </button>
+
+                    <div class="d-flex justify-content-between align-items-center p-3 rounded-3 mb-4"
+                         style="background:var(--light);">
+                        <span class="fw-bold">Total estimado:</span>
+                        <span class="fw-bold fs-5" style="color:var(--primary);" id="totalEstimado">₡ 0.00</span>
+                    </div>
+
+                    <div class="d-flex gap-2 justify-content-end">
+                        <a asp-action="Panel" class="btn btn-outline-primary">Cancelar</a>
+                        <button type="submit" class="btn btn-success btn-lg">✅ Confirmar pedido</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Panel lateral info -->
+        <div class="col-lg-5">
+            <div class="portal-card p-4 mb-3">
+                <h6 style="color:var(--primary);">📋 Cómo funciona</h6>
+                <ol class="small text-muted ps-3 mb-0">
+                    <li class="mb-2">Elegís los productos y la cantidad.</li>
+                    <li class="mb-2">Indicás tu dirección de entrega.</li>
+                    <li class="mb-2">Confirmás el pedido — recibís un número de tracking.</li>
+                    <li class="mb-2">Seguís el estado desde "Mis pedidos".</li>
+                    <li>¡Tu pan llega fresco a tu puerta! 🥖</li>
+                </ol>
+            </div>
+
+            <div class="portal-card p-4 mb-3">
+                <h6 style="color:var(--primary);">⏰ Horarios de entrega</h6>
+                <div class="small text-muted">
+                    <div class="mb-1">🟢 Lunes a viernes: 7:00 a.m. – 6:00 p.m.</div>
+                    <div class="mb-1">🟡 Sábados: 7:00 a.m. – 1:00 p.m.</div>
+                    <div>🔴 Domingos: no hay entregas</div>
+                </div>
+            </div>
+
+            <div class="portal-card p-4">
+                <h6 style="color:var(--primary);">💳 Formas de pago</h6>
+                <div class="small text-muted">
+                    <div class="mb-1">💵 Efectivo contra entrega</div>
+                    <div class="mb-1">📲 SINPE Móvil</div>
+                    <div>🏦 Transferencia bancaria</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        // Lista de productos con precios para JS
+        const productosData = {};
+        @{
+                var prods = ViewBag.Productos as List<MrLee.Web.Models.Product> ?? new();
+                foreach (var p in prods)
+                {
+                        <text>productosData[@p.Id] = { precio: @p.UnitPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture), unidad: '@p.Unit' };</text>
+                }
+        }
+
+        let lineaIndex = @Model.Items.Count;
+
+        function agregarLinea() {
+            const container = document.getElementById('lineasPedido');
+            const html = `
+            <div class="row g-2 mb-2 linea-pedido">
+                <div class="col-7">
+                    <select name="Items[${lineaIndex}].ProductoId" class="form-select select-producto" onchange="actualizarPrecio(this)">
+                        <option value="">-- Seleccionar producto --</option>
+                        @foreach (var p in prods)
+                        {
+                                <text><option value="@p.Id" data-precio="@p.UnitPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture)">@p.Name — ₡ @p.UnitPrice.ToString("N2") / @p.Unit</option></text>
+                        }
+                    </select>
+                </div>
+                <div class="col-3">
+                    <input type="number" name="Items[${lineaIndex}].Cantidad" value="0"
+                           class="form-control input-cantidad" min="0.5" step="0.5"
+                           placeholder="Cant." onchange="calcularTotal()" />
+                </div>
+                <div class="col-2 d-flex align-items-center">
+                    <button type="button" class="btn btn-outline-danger btn-sm w-100" onclick="quitarLinea(this)">✕</button>
+                </div>
+            </div>`;
+            container.insertAdjacentHTML('beforeend', html);
+            lineaIndex++;
+        }
+
+        function quitarLinea(btn) {
+            btn.closest('.linea-pedido').remove();
+            calcularTotal();
+        }
+
+        function actualizarPrecio(sel) { calcularTotal(); }
+
+        function calcularTotal() {
+            let total = 0;
+            document.querySelectorAll('.linea-pedido').forEach(linea => {
+                const sel = linea.querySelector('.select-producto');
+                const qty = parseFloat(linea.querySelector('.input-cantidad').value) || 0;
+                if (sel.value) {
+                    const opt = sel.options[sel.selectedIndex];
+                    const precio = parseFloat(opt.dataset.precio) || 0;
+                    total += precio * qty;
+                }
+            });
+            document.getElementById('totalEstimado').textContent =
+                '₡ ' + total.toLocaleString('es-CR', { minimumFractionDigits: 2 });
+        }
+
+        // Calcular al cargar
+        calcularTotal();
+    </script>
+}

@@ -1,0 +1,57 @@
+@model MrLee.Web.Controllers.LoginVm
+@{
+    ViewData["Title"] = "Iniciar sesión";
+    Layout = "_Layout";
+}
+
+<div class="login-shell">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-xl-10">
+        <div class="card login-card shadow-lg border-0 rounded-4 overflow-hidden">
+          <div class="row g-0">
+            <div class="col-lg-6 d-none d-lg-block">
+              <div class="login-visual h-100 d-flex flex-column justify-content-end">
+                <div class="text-uppercase text-primary fw-bold small mb-2">Bienvenido</div>
+                <h2 class="display-6 mb-3">Mr Lee System</h2>
+                <p class="mb-0">Accede al panel administrativo con la nueva identidad visual integrada desde el template.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 bg-white">
+              <div class="card-body p-4 p-lg-5">
+                <div class="mb-4">
+                  <div class="text-uppercase text-primary fw-bold small mb-2">Acceso</div>
+                  <h2 class="h3 mb-0">Iniciar sesión</h2>
+                </div>
+
+                <form method="post">
+                  @Html.AntiForgeryToken()
+
+                  <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+                  <div class="mb-3">
+                    <label class="form-label">Correo</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                  </div>
+
+                  <div class="mb-4">
+                    <label class="form-label">Contraseña</label>
+                    <input asp-for="Password" type="password" class="form-control" />
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                  </div>
+
+                  <button class="btn btn-primary w-100" type="submit">Entrar al sistema</button>
+
+                  <div class="text-center mt-3">
+                    <a asp-action="ForgotPassword" class="small text-decoration-none">¿Olvidó su contraseña?</a>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
