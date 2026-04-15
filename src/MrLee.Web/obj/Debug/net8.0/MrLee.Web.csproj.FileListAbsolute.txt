@@ -2219,3 +2219,10 @@ C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\obj\D
 C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\obj\Debug\net8.0\MrLee.Web.pdb
 C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\obj\Debug\net8.0\MrLee.Web.genruntimeconfig.cache
 C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\obj\Debug\net8.0\ref\MrLee.Web.dll
+C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\jeshu\Downloads\MrLeeSystem\MrLeeSystem\PaginaMrLee\src\MrLee.Web\bin\Debug\net8.0\System.ClientModel.dll

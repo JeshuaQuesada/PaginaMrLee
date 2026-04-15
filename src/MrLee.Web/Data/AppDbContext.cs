@@ -156,7 +156,7 @@ public class AppDbContext : DbContext
             .HasOne(m => m.SucursalNueva).WithMany()
             .HasForeignKey(m => m.SucursalIdNueva)
             .OnDelete(DeleteBehavior.Restrict);
-        
+
         modelBuilder.Entity<Cliente>()
             .HasIndex(c => c.Email).IsUnique();
 
@@ -167,4 +167,3 @@ public class AppDbContext : DbContext
             .OnDelete(DeleteBehavior.Cascade);
     }
 }
-

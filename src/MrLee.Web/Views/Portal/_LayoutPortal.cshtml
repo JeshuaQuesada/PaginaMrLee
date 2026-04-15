@@ -1,4 +1,5 @@
-﻿@{
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
     var nombre = User.Identity?.Name ?? "";
     var esCliente = User.FindFirst("ClienteId") != null;
 }

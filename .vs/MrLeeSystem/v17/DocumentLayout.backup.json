@@ -3,40 +3,272 @@
   "WorkspaceRootPath": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\_layoutportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\_layoutportal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\portalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\portalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\wwwroot\\theme\\css\\portal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\wwwroot\\theme\\css\\portal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\movimientoslaborales\\anular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\movimientoslaborales\\anular.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\movimientoslaborales\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\movimientoslaborales\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\movimientoslaborales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\movimientoslaborales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\cuentasbancarias\\inactivar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\cuentasbancarias\\inactivar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\cuentasbancarias\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\cuentasbancarias\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\cuentasbancarias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\cuentasbancarias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\contactosdirecciones\\eliminarregistro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\contactosdirecciones\\eliminarregistro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\contactosdirecciones\\contactoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\contactosdirecciones\\contactoform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\contactosdirecciones\\direccionform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\contactosdirecciones\\direccionform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\contactosdirecciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\contactosdirecciones\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\documentosexpediente\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\documentosexpediente\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\documentosexpediente\\subir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\documentosexpediente\\subir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\documentosexpediente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\documentosexpediente\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\incapacidades\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\incapacidades\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\incapacidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\incapacidades\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\vacaciones\\revisar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\vacaciones\\revisar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\vacaciones\\pendientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\vacaciones\\pendientes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\vacaciones\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\vacaciones\\historial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\vacaciones\\solicitar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\vacaciones\\solicitar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\empleados\\cambiarestado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\empleados\\cambiarestado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\empleados\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\empleados\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\empleados\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\empleados\\form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\empleados\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\restablecerpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\restablecerpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\recuperarpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\recuperarpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\reactivar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\reactivar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\verificaremail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\verificaremail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\desactivarcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\desactivarcuenta.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\preferencias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\preferencias.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\hacerpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\hacerpedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\detallepedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\detallepedido.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\mispedidos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\mispedidos.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\perfil.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\panel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\panel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\registro.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\models\\clienteviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\models\\clienteviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\models\\clientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\models\\clientemodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\portal\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\portal\\nosotros.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\models\\rrhhviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\models\\rrhhviewmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\models\\rrhhmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\models\\rrhhmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\services\\clienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\services\\cuentasmovimientosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\services\\cuentasmovimientosservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\services\\contactosdireccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\services\\contactosdireccionesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\services\\documentoexpedienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\services\\documentoexpedienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\services\\incapacidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\services\\incapacidadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\services\\vacacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\services\\vacacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\services\\empleadoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\portalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\portalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\movimientoslaboralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\movimientoslaboralescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\cuentasbancariascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\cuentasbancariascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\documentosexpedientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\documentosexpedientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\contactosdireccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\contactosdireccionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\incapacidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\incapacidadescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\vacacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\vacacionescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\controllers\\empleadoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\account\\forgotpassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\operatingincome\\periods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\operatingincome\\periods.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\operatingincome\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\operatingincome\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|c:\\users\\jeshu\\downloads\\mrleesystem\\mrleesystem\\paginamrlee\\src\\mrlee.web\\views\\operatingincome\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A18C7A6-6CDE-4A1C-A44B-3F25F9F6B8B9}|src\\MrLee.Web\\MrLee.Web.csproj|solutionrelative:src\\mrlee.web\\views\\operatingincome\\_form.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +278,515 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 66,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\appsettings.json",
+              "RelativeToolTip": "src\\MrLee.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAADAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-15T23:16:17.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Program.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Program.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Program.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T23:14:06.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "portal.css",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "RelativeToolTip": "src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAcwIoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-15T20:32:29.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Anular.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\MovimientosLaborales\\Anular.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\MovimientosLaborales\\Anular.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\MovimientosLaborales\\Anular.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\MovimientosLaborales\\Anular.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:32:13.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\MovimientosLaborales\\Form.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\MovimientosLaborales\\Form.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\MovimientosLaborales\\Form.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\MovimientosLaborales\\Form.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAswD4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:32:04.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\MovimientosLaborales\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\MovimientosLaborales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\MovimientosLaborales\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\MovimientosLaborales\\Index.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:31:53.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\CuentasBancarias\\Form.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\CuentasBancarias\\Form.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\CuentasBancarias\\Form.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\CuentasBancarias\\Form.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:31:34.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Inactivar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\CuentasBancarias\\Inactivar.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\CuentasBancarias\\Inactivar.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\CuentasBancarias\\Inactivar.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\CuentasBancarias\\Inactivar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:31:33.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\CuentasBancarias\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\CuentasBancarias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\CuentasBancarias\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\CuentasBancarias\\Index.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswDoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:31:22.464Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EliminarRegistro.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\EliminarRegistro.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\ContactosDirecciones\\EliminarRegistro.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\EliminarRegistro.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\ContactosDirecciones\\EliminarRegistro.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:31:06.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_LayoutPortal.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:23:24.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ContactoForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\ContactoForm.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\ContactosDirecciones\\ContactoForm.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\ContactoForm.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\ContactosDirecciones\\ContactoForm.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:31:00.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DireccionForm.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\DireccionForm.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\ContactosDirecciones\\DireccionForm.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\DireccionForm.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\ContactosDirecciones\\DireccionForm.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAswEsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:30:47.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\ContactosDirecciones\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\ContactosDirecciones\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\ContactosDirecciones\\Index.cshtml",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswGkAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:30:33.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\DocumentosExpediente\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\DocumentosExpediente\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\DocumentosExpediente\\Eliminar.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\DocumentosExpediente\\Eliminar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:30:13.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Subir.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\DocumentosExpediente\\Subir.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\DocumentosExpediente\\Subir.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\DocumentosExpediente\\Subir.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\DocumentosExpediente\\Subir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:30:05.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\DocumentosExpediente\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\DocumentosExpediente\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\DocumentosExpediente\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\DocumentosExpediente\\Index.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswDAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:29:47.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Incapacidades\\Form.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Incapacidades\\Form.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Incapacidades\\Form.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Incapacidades\\Form.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswFAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:29:32.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Incapacidades\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Incapacidades\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Incapacidades\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Incapacidades\\Index.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswDwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:29:23.881Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Revisar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Revisar.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Vacaciones\\Revisar.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Revisar.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Vacaciones\\Revisar.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:28:59.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Pendientes.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Pendientes.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Vacaciones\\Pendientes.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Pendientes.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Vacaciones\\Pendientes.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswC0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:28:50.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Historial.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Historial.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Vacaciones\\Historial.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Historial.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Vacaciones\\Historial.cshtml",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:28:40.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Solicitar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Solicitar.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Vacaciones\\Solicitar.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Vacaciones\\Solicitar.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Vacaciones\\Solicitar.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:28:27.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CambiarEstado.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\CambiarEstado.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Empleados\\CambiarEstado.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\CambiarEstado.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Empleados\\CambiarEstado.cshtml",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:28:13.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Empleados\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Detalle.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Empleados\\Detalle.cshtml",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAswJQAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:28:04.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Form.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Empleados\\Form.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Form.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Empleados\\Form.cshtml",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAswHEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:27:53.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAswH8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:27:42.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "RestablecerPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\RestablecerPassword.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\RestablecerPassword.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\RestablecerPassword.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\RestablecerPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:27:18.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RecuperarPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\RecuperarPassword.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\RecuperarPassword.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\RecuperarPassword.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\RecuperarPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:26:55.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Reactivar.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Reactivar.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Reactivar.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Reactivar.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Reactivar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:26:55.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "VerificarEmail.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\VerificarEmail.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\VerificarEmail.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\VerificarEmail.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\VerificarEmail.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:26:46.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DesactivarCuenta.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\DesactivarCuenta.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\DesactivarCuenta.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\DesactivarCuenta.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\DesactivarCuenta.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswCwAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:26:34.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Preferencias.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Preferencias.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Preferencias.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Preferencias.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Preferencias.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAswDoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:26:21.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Nosotros.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
+              "ViewState": "AgIAADgAAAAAAAAAAAAswGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:25:51.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "HacerPedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
+              "ViewState": "AgIAAJ8AAAAAAAAAAAAswMsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:25:39.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DetallePedido.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\DetallePedido.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\DetallePedido.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\DetallePedido.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\DetallePedido.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAswEcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:25:25.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "MisPedidos.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\MisPedidos.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\MisPedidos.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\MisPedidos.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\MisPedidos.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswEwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:25:12.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Perfil.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Perfil.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Perfil.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Perfil.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Perfil.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswE0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:24:46.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Panel.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Panel.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Panel.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Panel.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Panel.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswDQAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:24:30.175Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
@@ -286,119 +1025,366 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 39,
+              "Title": "Registro.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Registro.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Registro.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Registro.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Registro.cshtml",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswGgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:24:13.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Login.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Login.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Login.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Login.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAswDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:23:50.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Index.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAswC8AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:23:40.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
               "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
               "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-08T22:42:40.156Z",
+              "WhenOpened": "2026-04-15T20:15:37.711Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "portal.css",
-              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
-              "RelativeDocumentMoniker": "src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
-              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
-              "RelativeToolTip": "src\\MrLee.Web\\wwwroot\\theme\\css\\portal.css",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAcwHAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-04-08T22:14:23.548Z",
+              "DocumentIndex": 43,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T20:15:29.848Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\OrdersController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 44,
+              "Title": "ClienteViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\ClienteViewModels.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Models\\ClienteViewModels.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\ClienteViewModels.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Models\\ClienteViewModels.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAA9wJIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T22:13:07.805Z",
+              "WhenOpened": "2026-04-15T20:14:28.888Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PortalController.cs",
-              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\PortalController.cs",
-              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\PortalController.cs",
-              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\PortalController.cs",
-              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\PortalController.cs",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAIwGEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T22:11:05.335Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 45,
               "Title": "ClienteModels.cs",
               "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\ClienteModels.cs",
               "RelativeDocumentMoniker": "src\\MrLee.Web\\Models\\ClienteModels.cs",
               "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\ClienteModels.cs",
               "RelativeToolTip": "src\\MrLee.Web\\Models\\ClienteModels.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAwwHAAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAA9wHEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T22:09:29.195Z",
+              "WhenOpened": "2026-04-15T20:14:05.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HacerPedido.cshtml",
-              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
-              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
-              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
-              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\HacerPedido.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-08T22:08:32.029Z",
+              "DocumentIndex": 46,
+              "Title": "RrhhViewModels.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\RrhhViewModels.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Models\\RrhhViewModels.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\RrhhViewModels.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Models\\RrhhViewModels.cs",
+              "ViewState": "AgIAACUBAAAAAAAAAAAswFEBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:13:42.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Nosotros.cshtml",
-              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
-              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
-              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
-              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\Nosotros.cshtml",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAswGMAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-08T22:08:09.503Z",
+              "DocumentIndex": 47,
+              "Title": "RrhhModels.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\RrhhModels.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Models\\RrhhModels.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Models\\RrhhModels.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Models\\RrhhModels.cs",
+              "ViewState": "AgIAADABAAAAAAAAAAA9wFwBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:13:08.708Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_LayoutPortal.cshtml",
-              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
-              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
-              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
-              "RelativeToolTip": "src\\MrLee.Web\\Views\\Portal\\_LayoutPortal.cshtml",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-08T22:07:22.206Z",
+              "DocumentIndex": 48,
+              "Title": "ClienteService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\ClienteService.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Services\\ClienteService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\ClienteService.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Services\\ClienteService.cs",
+              "ViewState": "AgIAAC0BAAAAAAAAAAAswFkBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:12:13.583Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
-              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
-              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
-              "RelativeToolTip": "src\\MrLee.Web\\Views\\Empleados\\Index.cshtml",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAFwAAAB+AAAAAAAAAA==",
+              "DocumentIndex": 49,
+              "Title": "CuentasMovimientosService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\CuentasMovimientosService.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Services\\CuentasMovimientosService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\CuentasMovimientosService.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Services\\CuentasMovimientosService.cs",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAswOoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:11:36.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "ContactosDireccionesService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\ContactosDireccionesService.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Services\\ContactosDireccionesService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\ContactosDireccionesService.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Services\\ContactosDireccionesService.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAswJkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:10:58.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "DocumentoExpedienteService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\DocumentoExpedienteService.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Services\\DocumentoExpedienteService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\DocumentoExpedienteService.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Services\\DocumentoExpedienteService.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAswGwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:10:31.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IncapacidadService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\IncapacidadService.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Services\\IncapacidadService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\IncapacidadService.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Services\\IncapacidadService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAswHQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:09:14.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "VacacionService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\VacacionService.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Services\\VacacionService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\VacacionService.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Services\\VacacionService.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAswIoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:08:50.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "EmpleadoService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\EmpleadoService.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Services\\EmpleadoService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Services\\EmpleadoService.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Services\\EmpleadoService.cs",
+              "ViewState": "AgIAALgAAAAAAAAAAAAswOQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:08:20.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "PortalController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\PortalController.cs",
+              "ViewState": "AgIAAD8BAAAAAAAAAAAswGsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:05:50.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "MovimientosLaboralesController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\MovimientosLaboralesController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\MovimientosLaboralesController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\MovimientosLaboralesController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\MovimientosLaboralesController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswG0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:05:30.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CuentasBancariasController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\CuentasBancariasController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\CuentasBancariasController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\CuentasBancariasController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\CuentasBancariasController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAswF0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:05:11.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ContactosDireccionesController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\ContactosDireccionesController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\ContactosDireccionesController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\ContactosDireccionesController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\ContactosDireccionesController.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAswKMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:03:16.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "DocumentosExpedienteController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\DocumentosExpedienteController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\DocumentosExpedienteController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\DocumentosExpedienteController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\DocumentosExpedienteController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAA9wEoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:02:55.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "IncapacidadesController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\IncapacidadesController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\IncapacidadesController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\IncapacidadesController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\IncapacidadesController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAswFIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:02:31.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "VacacionesController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\VacacionesController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\VacacionesController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\VacacionesController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\VacacionesController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAswH0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T20:01:16.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "EmpleadosController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\EmpleadosController.cs",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Controllers\\EmpleadosController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Controllers\\EmpleadosController.cs",
+              "RelativeToolTip": "src\\MrLee.Web\\Controllers\\EmpleadosController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-15T19:59:30.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "ForgotPassword.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\Account\\ForgotPassword.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-08T22:26:43.271Z",
+              "WhenOpened": "2026-04-15T19:49:11.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "Periods.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\OperatingIncome\\Periods.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\OperatingIncome\\Periods.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\OperatingIncome\\Periods.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\OperatingIncome\\Periods.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswEgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T19:48:42.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\OperatingIncome\\Details.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\OperatingIncome\\Details.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\OperatingIncome\\Details.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\OperatingIncome\\Details.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAswEoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T19:48:29.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "_Form.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\OperatingIncome\\_Form.cshtml",
+              "RelativeDocumentMoniker": "src\\MrLee.Web\\Views\\OperatingIncome\\_Form.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\MrLeeSystem\\MrLeeSystem\\PaginaMrLee\\src\\MrLee.Web\\Views\\OperatingIncome\\_Form.cshtml",
+              "RelativeToolTip": "src\\MrLee.Web\\Views\\OperatingIncome\\_Form.cshtml",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswD0AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-15T19:48:13.637Z",
               "EditorCaption": ""
             }
           ]

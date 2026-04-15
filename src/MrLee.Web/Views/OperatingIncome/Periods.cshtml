@@ -39,34 +39,34 @@
                 </tr>
             </thead>
             <tbody>
-            @foreach (var p in Model)
-            {
-                <tr>
-                    <td>@p.Year-@p.Month.ToString("00")</td>
-                    <td>
-                        @if (p.Status == AccountingPeriodStatus.Cerrado)
-                        {
-                            <span class="badge bg-danger">Cerrado</span>
-                        }
-                        else
-                        {
-                            <span class="badge bg-success">Abierto</span>
-                        }
-                    </td>
-                    <td>@p.ClosedByEmail</td>
-                    <td>@(p.ClosedAtUtc?.ToLocalTime().ToString("dd/MM/yyyy HH:mm") ?? "-")</td>
-                    <td>@p.Notes</td>
-                    <td>
-                        @if (p.Status == AccountingPeriodStatus.Cerrado)
-                        {
-                            <form asp-action="ReopenPeriod" asp-route-id="@p.Id" method="post">
-                                @Html.AntiForgeryToken()
-                                <button class=" btn btn-sm btn-outline-success">Reabrir</button>
-                            </form>
-                        }
-                    </td>
-                </tr>
-            }
+                @foreach (var p in Model)
+                {
+                    <tr>
+                        <td>@p.Year-@p.Month.ToString("00")</td>
+                        <td>
+                            @if (p.Status == AccountingPeriodStatus.Cerrado)
+                            {
+                                <span class="badge bg-danger">Cerrado</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-success">Abierto</span>
+                            }
+                        </td>
+                        <td>@p.ClosedByEmail</td>
+                        <td>@(p.ClosedAtUtc?.ToLocalTime().ToString("dd/MM/yyyy HH:mm") ?? "-")</td>
+                        <td>@p.Notes</td>
+                        <td>
+                            @if (p.Status == AccountingPeriodStatus.Cerrado)
+                            {
+                                <form asp-action="ReopenPeriod" asp-route-id="@p.Id" method="post">
+                                    @Html.AntiForgeryToken()
+                                    <button class=" btn btn-sm btn-outline-success">Reabrir</button>
+                                </form>
+                            }
+                        </td>
+                    </tr>
+                }
             </tbody>
         </table>
     </div>

@@ -141,11 +141,11 @@
         // Lista de productos con precios para JS
         const productosData = {};
         @{
-                var prods = ViewBag.Productos as List<MrLee.Web.Models.Product> ?? new();
-                foreach (var p in prods)
-                {
-                        <text>productosData[@p.Id] = { precio: @p.UnitPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture), unidad: '@p.Unit' };</text>
-                }
+                    var prods = ViewBag.Productos as List<MrLee.Web.Models.Product> ?? new();
+                    foreach (var p in prods)
+                    {
+                                <text>productosData[@p.Id] = { precio: @p.UnitPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture), unidad: '@p.Unit' };</text>
+                    }
         }
 
         let lineaIndex = @Model.Items.Count;
@@ -159,7 +159,7 @@
                         <option value="">-- Seleccionar producto --</option>
                         @foreach (var p in prods)
                         {
-                                <text><option value="@p.Id" data-precio="@p.UnitPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture)">@p.Name — ₡ @p.UnitPrice.ToString("N2") / @p.Unit</option></text>
+                                    <text><option value="@p.Id" data-precio="@p.UnitPrice.ToString("F2", System.Globalization.CultureInfo.InvariantCulture)">@p.Name — ₡ @p.UnitPrice.ToString("N2") / @p.Unit</option></text>
                         }
                     </select>
                 </div>
