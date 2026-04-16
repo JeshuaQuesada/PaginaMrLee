@@ -2,7 +2,7 @@
 @{
     ViewData["Title"] = "Solicitar vacaciones";
 }
-
+ 
 <div class="row justify-content-center">
     <div class="col-lg-7">
         <div class="section-panel">
@@ -10,15 +10,15 @@
                 <h5 class="mb-1">@Model.NombreEmpleado</h5>
                 <div class="text-muted small">Saldo disponible: <strong class="text-success">@Model.DiasDisponibles día(s)</strong></div>
             </div>
-
+ 
             <form asp-action="Solicitar" method="post">
                 @Html.AntiForgeryToken()
                 <input type="hidden" asp-for="EmpleadoId" />
                 <input type="hidden" asp-for="NombreEmpleado" />
                 <input type="hidden" asp-for="DiasDisponibles" />
-
+ 
                 <div asp-validation-summary="All" class="alert alert-danger mb-3"></div>
-
+ 
                 <div class="row g-3 mb-3">
                     <div class="col-md-6">
                         <label class="form-label fw-medium">Fecha inicio <span class="text-danger">*</span></label>
@@ -38,14 +38,14 @@
                     <div class="col-md-6">
                         <label class="form-label fw-medium">Tipo</label>
                         <select asp-for="TipoDia" class="form-select"
-                                asp-items="Html.GetEnumSelectList<MrLee.Web.Models.TipoDiaVacacion>()"></select>
+                            asp-items="Html.GetEnumSelectList<MrLee.Web.Models.TipoDiaVacacion>()"></select>
                     </div>
                     <div class="col-12">
                         <label class="form-label fw-medium">Observaciones</label>
                         <textarea asp-for="Observaciones" class="form-control" rows="2" maxlength="500"></textarea>
                     </div>
                 </div>
-
+ 
                 <div class="d-flex gap-2 justify-content-end">
                     <a asp-controller="Empleados" asp-action="Detalle" asp-route-id="@Model.EmpleadoId" class="btn btn-outline-secondary">Cancelar</a>
                     <button type="submit" class="btn btn-success">🏖 Enviar solicitud</button>
@@ -54,7 +54,7 @@
         </div>
     </div>
 </div>
-
+ 
 @section Scripts {
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");

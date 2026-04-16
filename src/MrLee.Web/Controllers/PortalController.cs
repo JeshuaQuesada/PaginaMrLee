@@ -2,8 +2,6 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using MrLee.Web.Data;
 using MrLee.Web.Models;
 using MrLee.Web.Services;
 using System.Security.Claims;
@@ -13,15 +11,9 @@ namespace MrLee.Web.Controllers
     public class PortalController : Controller
     {
         private readonly ClienteService _svc;
-        private readonly AppDbContext _db;
-        private readonly AuditService _audit;
 
-        public PortalController(ClienteService svc, AppDbContext db, AuditService audit)
-        {
-            _svc = svc;
-            _db = db;
-            _audit = audit;
-        }
+        public PortalController(ClienteService svc) => _svc = svc;
+
         private int ClienteId => int.TryParse(User.FindFirstValue("ClienteId"), out var id) ? id : 0;
         private string ClienteEmail => User.FindFirstValue("ClienteEmail") ?? "";
 
@@ -90,11 +82,18 @@ namespace MrLee.Web.Controllers
         }
 
         //  Cerrar sesión 
-        [HttpGet]
-        public async Task<IActionResult> Logout()
+        [AllowAnonymous]
+        [AcceptVerbs("GET", "POST")]
+        [IgnoreAntiforgeryToken]
+        public async Task<IActionResult> Logout(string? returnUrl = "/")
         {
             await HttpContext.SignOutAsync("ClienteCookie");
-            return RedirectToAction(nameof(Login));
+
+            var safeReturnUrl = !string.IsNullOrWhiteSpace(returnUrl) && Url.IsLocalUrl(returnUrl)
+                ? returnUrl
+                : "/";
+
+            return RedirectToAction("Login", "Account", new { ReturnUrl = safeReturnUrl });
         }
 
         //  Panel principal del cliente 
@@ -259,105 +258,6 @@ namespace MrLee.Web.Controllers
             ViewBag.Ok = ok;
             ViewBag.Error = error;
             return View();
-        }
-
-        //  Nosotros 
-        [AllowAnonymous]
-        public IActionResult Nosotros() => View();
-
-        //  Hacer pedido 
-        [Authorize(AuthenticationSchemes = "ClienteCookie")]
-        public async Task<IActionResult> HacerPedido()
-        {
-            var cliente = await _svc.FindByIdAsync(ClienteId);
-            if (cliente == null) return RedirectToAction(nameof(Login));
-
-            var productos = await _db.Products
-                .Where(p => p.IsActive && p.CurrentStock > 0)
-                .OrderBy(p => p.Name)
-                .ToListAsync();
-
-            ViewBag.Productos = productos;
-
-            var vm = new PedidoClienteVm
-            {
-                NombreCliente = $"{cliente.Nombre} {cliente.Apellido}",
-                TelefonoCliente = cliente.Telefono,
-                DireccionEntrega = cliente.Direcciones
-                    .FirstOrDefault(d => d.EsPrincipal)?.Direccion ?? ""
-            };
-
-            return View(vm);
-        }
-
-        [HttpPost, ValidateAntiForgeryToken]
-        [Authorize(AuthenticationSchemes = "ClienteCookie")]
-        public async Task<IActionResult> HacerPedido(PedidoClienteVm vm)
-        {
-            var productos = await _db.Products
-                .Where(p => p.IsActive && p.CurrentStock > 0)
-                .OrderBy(p => p.Name)
-                .ToListAsync();
-            ViewBag.Productos = productos;
-
-            if (!ModelState.IsValid) return View(vm);
-
-            var lineas = vm.Items
-                .Where(i => i.ProductoId.HasValue && i.Cantidad > 0)
-                .ToList();
-
-            if (!lineas.Any())
-            {
-                ModelState.AddModelError("", "Agregá al menos un producto al pedido.");
-                return View(vm);
-            }
-
-            // Generar tracking
-            var date = DateTime.UtcNow.ToString("yyyyMMdd");
-            var rnd = Random.Shared.Next(1000, 9999);
-            var tracking = $"MRLEE-{date}-{rnd}";
-            while (await _db.Orders.AnyAsync(o => o.TrackingNumber == tracking))
-            {
-                rnd = Random.Shared.Next(1000, 9999);
-                tracking = $"MRLEE-{date}-{rnd}";
-            }
-
-            var productIds = lineas.Select(l => l.ProductoId!.Value).Distinct().ToList();
-            var prods = await _db.Products.Where(p => productIds.Contains(p.Id)).ToListAsync();
-
-            var order = new Order
-            {
-                TrackingNumber = tracking,
-                CustomerName = vm.NombreCliente.Trim(),
-                CustomerPhone = vm.TelefonoCliente.Trim(),
-                DeliveryAddress = vm.DireccionEntrega.Trim(),
-                Notes = vm.Notas.Trim(),
-                Status = OrderStatus.EnPreparacion
-            };
-
-            foreach (var linea in lineas)
-            {
-                var prod = prods.FirstOrDefault(p => p.Id == linea.ProductoId);
-                if (prod == null) continue;
-
-                order.Items.Add(new OrderItem
-                {
-                    ProductId = prod.Id,
-                    Quantity = linea.Cantidad,
-                    UnitPrice = prod.UnitPrice
-                });
-            }
-
-            _db.Orders.Add(order);
-            await _db.SaveChangesAsync();
-
-            // Auditoría
-            var clienteEmail = User.FindFirst("ClienteEmail")?.Value ?? "";
-            await _audit.LogAsync(null, clienteEmail, "CLIENTE.PEDIDO", "Order",
-                order.Id.ToString(), new { tracking, vm.NombreCliente });
-
-            TempData["Msg"] = $"¡Pedido realizado! Tu número de seguimiento es {tracking} 🎉";
-            return RedirectToAction(nameof(MisPedidos));
         }
     }
 }

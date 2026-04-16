@@ -36,6 +36,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Carrito/Confirmar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xDb25maXJtYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Carrito/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Carrito/Tienda.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2Fycml0b1xUaWVuZGEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/ContactosDirecciones/ContactoForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdG9zRGlyZWNjaW9uZXNcQ29udGFjdG9Gb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -192,10 +204,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXERldGFsbGVQZWRpZG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Portal/HacerPedido.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXEhhY2VyUGVkaWRvLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Portal/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -206,10 +214,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Portal/MisPedidos.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXE1pc1BlZGlkb3MuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Portal/Nosotros.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXE5vc290cm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Portal/Panel.cshtml]
@@ -248,8 +252,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXF9MYXlvdXRQb3J0YWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Portal/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGFsXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Shared/_ConfirmActionModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db25maXJtQWN0aW9uTW9kYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Shared/_EmptyMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9FbXB0eU1lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jeshu/Downloads/MrLeeSystem/MrLeeSystem/PaginaMrLee/src/MrLee.Web/Views/Shared/_Layout.cshtml]

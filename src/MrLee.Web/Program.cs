@@ -68,6 +68,14 @@ builder.Services.AddScoped<DocumentoExpedienteService>();
 builder.Services.AddScoped<ContactosDireccionesService>();
 builder.Services.AddScoped<CuentaBancariaService>();
 builder.Services.AddScoped<MovimientoLaboralService>();
+builder.Services.AddDistributedMemoryCache();
+builder.Services.AddSession(options =>
+{
+    options.IdleTimeout = TimeSpan.FromMinutes(60);
+    options.Cookie.HttpOnly = true;
+    options.Cookie.IsEssential = true;
+});
+builder.Services.AddScoped<CarritoService>();
 builder.Services.AddScoped<ClienteService>();
 
 var app = builder.Build();
@@ -99,6 +107,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseSession();
 
 app.UseAuthentication();
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MrLee.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91b709adbe00085e0bdb62b0bc1a2c2a754f0536")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a00945e96d98de2290c0a12c7fde981f8dee479")]
 [assembly: System.Reflection.AssemblyProductAttribute("MrLee.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MrLee.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

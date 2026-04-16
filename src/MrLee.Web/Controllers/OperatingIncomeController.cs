@@ -42,7 +42,10 @@ public class OperatingIncomeController : Controller
         ViewBag.To = to?.ToString("yyyy-MM-dd") ?? "";
         ViewBag.Query = q ?? "";
         ViewBag.IncludeVoided = includeVoided;
-        ViewBag.Total = list.Where(x => !x.IsVoided).Sum(x => x.Amount);
+        ViewBag.TotalVisible = list.Where(x => !x.IsVoided).Sum(x => x.Amount);
+        ViewBag.VisibleCount = list.Count;
+        ViewBag.ActiveCount = list.Count(x => !x.IsVoided);
+        ViewBag.VoidedCount = list.Count(x => x.IsVoided);
         return View(list);
     }
 
@@ -67,6 +70,7 @@ public class OperatingIncomeController : Controller
         ViewBag.From = f.ToString("yyyy-MM-dd");
         ViewBag.To = t.ToString("yyyy-MM-dd");
         ViewBag.GrandTotal = items.Sum(x => x.Amount);
+        ViewBag.RowCount = items.Count;
         return View(items);
     }
 

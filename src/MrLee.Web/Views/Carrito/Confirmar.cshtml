@@ -1,0 +1,125 @@
+﻿@model MrLee.Web.Models.ConfirmarPedidoVm
+@{
+    ViewData["Title"] = "Confirmar pedido";
+    Layout = "~/Views/Portal/_LayoutPortal.cshtml";
+}
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 style="color:var(--primary);">📋 Confirmar pedido</h4>
+        <a asp-controller="Carrito" asp-action="Index" class="btn btn-outline-primary">
+            ← Volver al carrito
+        </a>
+    </div>
+
+    <div class="row g-4">
+        <!-- Formulario de entrega -->
+        <div class="col-lg-7">
+            <div class="portal-card p-4">
+                <h5 class="mb-4" style="color:var(--primary);">📍 Datos de entrega</h5>
+
+                <form asp-action="Confirmar" method="post">
+                    @Html.AntiForgeryToken()
+                    <div asp-validation-summary="All" class="alert alert-danger small mb-3"></div>
+
+                    <div class="row g-3 mb-4">
+                        <div class="col-md-6">
+                            <label class="form-label fw-medium">Nombre completo <span class="text-danger">*</span></label>
+                            <input asp-for="NombreCliente" class="form-control" />
+                            <span asp-validation-for="NombreCliente" class="text-danger small"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label class="form-label fw-medium">Teléfono <span class="text-danger">*</span></label>
+                            <input asp-for="TelefonoCliente" class="form-control" placeholder="8888-0000" />
+                            <span asp-validation-for="TelefonoCliente" class="text-danger small"></span>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-medium">Dirección de entrega <span class="text-danger">*</span></label>
+                            <input asp-for="DireccionEntrega" class="form-control"
+                                   placeholder="Provincia, cantón, señas exactas..." />
+                            <span asp-validation-for="DireccionEntrega" class="text-danger small"></span>
+                        </div>
+                        <div class="col-12">
+                            <label class="form-label fw-medium">Notas adicionales</label>
+                            <textarea asp-for="Notas" class="form-control" rows="2"
+                                      placeholder="Alergias, preferencias, hora de entrega..."></textarea>
+                        </div>
+                    </div>
+
+                    <!-- Resumen compacto -->
+                    <h6 class="mb-3 text-muted">🧾 Resumen de tu pedido</h6>
+                    <div class="table-responsive mb-4">
+                        <table class="table table-sm align-middle mb-0">
+                            <thead style="background:#fff8f0;">
+                                <tr>
+                                    <th>Producto</th>
+                                    <th class="text-end">Precio</th>
+                                    <th class="text-center">Cant.</th>
+                                    <th class="text-end">Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.Carrito.Items)
+                                {
+                                    <tr>
+                                        <td>@item.Nombre</td>
+                                        <td class="text-end small">₡ @item.Precio.ToString("N2")</td>
+                                        <td class="text-center small">@item.Cantidad @item.Unidad</td>
+                                        <td class="text-end fw-bold">₡ @item.Subtotal.ToString("N2")</td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="3" class="text-end fw-bold">Total</td>
+                                    <td class="text-end fw-bold fs-5"
+                                        style="color:var(--primary);">
+                                        ₡ @Model.Carrito.Total.ToString("N2")
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                    <button type="submit" class="btn btn-success btn-lg w-100">
+                        🎉 Confirmar y enviar pedido
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Info lateral -->
+        <div class="col-lg-5">
+            <div class="portal-card p-4 mb-3">
+                <h6 style="color:var(--primary);">⏰ Horarios de entrega</h6>
+                <div class="small text-muted">
+                    <div class="mb-1">🟢 Lunes a viernes: 7:00 a.m. – 6:00 p.m.</div>
+                    <div class="mb-1">🟡 Sábados: 7:00 a.m. – 1:00 p.m.</div>
+                    <div>🔴 Domingos: no hay entregas</div>
+                </div>
+            </div>
+            <div class="portal-card p-4 mb-3">
+                <h6 style="color:var(--primary);">💳 Formas de pago</h6>
+                <div class="small text-muted">
+                    <div class="mb-1">💵 Efectivo contra entrega</div>
+                    <div class="mb-1">📲 SINPE Móvil: 8888-0000</div>
+                    <div>🏦 Transferencia bancaria</div>
+                </div>
+            </div>
+            <div class="portal-card p-4">
+                <h6 style="color:var(--primary);">📞 ¿Dudas?</h6>
+                <div class="small text-muted">
+                    Llamanos al <strong>2222-3333</strong> o escribinos por WhatsApp al
+                    <strong>8888-0000</strong>.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+}

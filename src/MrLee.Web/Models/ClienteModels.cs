@@ -78,37 +78,4 @@ namespace MrLee.Web.Models
         public DateTime CreatedAtUtc { get; set; } = DateTime.UtcNow;
         public DateTime? UpdatedAtUtc { get; set; }
     }
-
-    //  Pedido desde portal cliente 
-    public class PedidoClienteVm
-    {
-        [Required(ErrorMessage = "El nombre es obligatorio.")]
-        [StringLength(150)]
-        public string NombreCliente { get; set; } = "";
-
-        [Required(ErrorMessage = "El teléfono es obligatorio.")]
-        [RegularExpression(@"^\+?[0-9\s\-\(\)]{7,20}$", ErrorMessage = "Formato inválido.")]
-        [StringLength(20)]
-        public string TelefonoCliente { get; set; } = "";
-
-        [Required(ErrorMessage = "La dirección es obligatoria.")]
-        [StringLength(300)]
-        public string DireccionEntrega { get; set; } = "";
-
-        [StringLength(500)]
-        public string Notas { get; set; } = "";
-
-        public List<LineaPedidoClienteVm> Items { get; set; } = new()
-            {
-                new(), new(), new(), new(), new()
-            };
-    }
-
-    public class LineaPedidoClienteVm
-    {
-        public int? ProductoId { get; set; }
-
-        [Range(0, 9999)]
-        public decimal Cantidad { get; set; } = 0;
-    }
 }

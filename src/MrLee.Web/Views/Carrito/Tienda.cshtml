@@ -1,0 +1,141 @@
+﻿@model List<MrLee.Web.Models.Product>
+@{
+    ViewData["Title"] = "Tienda";
+    Layout = "~/Views/Portal/_LayoutPortal.cshtml";
+    var carritoItems = (int)(ViewBag.CarritoItems ?? 0);
+}
+
+<div class="portal-hero" style="padding:3rem 0 2.5rem;">
+    <div class="container">
+        <h1 class="display-6 mb-2" style="color:#fff;">🛒 Nuestra tienda</h1>
+        <p class="lead mb-0" style="color:rgba(255,255,255,.85);">
+            Elegí tus productos favoritos y los llevamos a tu puerta.
+        </p>
+    </div>
+</div>
+
+<div class="container py-4">
+
+    <!-- Barra superior con link al carrito -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h5 class="mb-0 text-muted">@Model.Count producto(s) disponibles</h5>
+        <a asp-controller="Carrito" asp-action="Index"
+           class="btn btn-primary position-relative">
+            🛒 Ver carrito
+            <span id="badge-global"
+                  class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+                  style="@(carritoItems == 0 ? "display:none" : "")">
+                @carritoItems
+            </span>
+        </a>
+    </div>
+
+    <!-- Productos -->
+    @if (!Model.Any())
+    {
+        <div class="portal-card p-5 text-center text-muted">
+            <div style="font-size:3rem">🍞</div>
+            <p class="mt-3">No hay productos disponibles en este momento.</p>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            @foreach (var p in Model)
+            {
+                <div class="col-sm-6 col-lg-4">
+                    <div class="portal-card h-100 d-flex flex-column" id="card-@p.Id">
+                        <div class="p-4 flex-grow-1">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h6 class="mb-0">@p.Name</h6>
+                                <span class="badge bg-secondary">@p.Unit</span>
+                            </div>
+                            <div class="display-6 fw-bold mb-1"
+                                 style="font-size:1.4rem;color:var(--primary);">
+                                ₡ @p.UnitPrice.ToString("N2")
+                            </div>
+                            <div class="small text-muted mb-3">
+                                Stock: @p.CurrentStock.ToString("N0") @p.Unit
+                            </div>
+
+                            <!-- Selector de cantidad + botón agregar -->
+                            <div class="d-flex gap-2 align-items-center">
+                                <input type="number"
+                                       id="qty-@p.Id"
+                                       class="form-control"
+                                       value="1" min="0.5" max="@p.CurrentStock"
+                                       step="0.5"
+                                       style="width:85px;" />
+                                <button class="btn btn-success flex-grow-1"
+                                        onclick="agregarAlCarrito(@p.Id, '@p.Name.Replace("'", "\\'")')">
+                                    ➕ Agregar
+                                </button>
+                            </div>
+                            <div id="msg-@p.Id" class="small mt-2 text-success" style="min-height:18px;"></div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+
+    <!-- Botón flotante carrito -->
+    <div id="carrito-flotante"
+         style="position:fixed;bottom:2rem;right:2rem;z-index:999;display:@(carritoItems > 0 ? "block" : "none")">
+        <a asp-controller="Carrito" asp-action="Index"
+           class="btn btn-primary btn-lg shadow-lg rounded-pill px-4">
+            🛒 <span id="flotante-count">@carritoItems</span> item(s) —
+            ₡ <span id="flotante-total">0.00</span>
+        </a>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Token antiforgery para AJAX
+        const TOKEN = document.querySelector('input[name="__RequestVerificationToken"]')?.value
+            ?? '@Html.AntiForgeryToken()'.match(/value="([^"]+)"/)?.[1] ?? '';
+
+        async function agregarAlCarrito(id, nombre) {
+            const qty = parseFloat(document.getElementById('qty-' + id).value) || 1;
+            const msgEl = document.getElementById('msg-' + id);
+
+            try {
+                const resp = await fetch('/Carrito/Agregar', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                        'RequestVerificationToken': document.querySelector('[name="__RequestVerificationToken"]')?.value ?? ''
+                    },
+                    body: `productoId=${id}&cantidad=${qty}&__RequestVerificationToken=${encodeURIComponent(
+                        document.querySelector('[name="__RequestVerificationToken"]')?.value ?? '')}`
+                });
+
+                const data = await resp.json();
+                if (data.ok) {
+                    msgEl.textContent = `✅ "${nombre}" agregado al carrito`;
+                    msgEl.className = 'small mt-2 text-success';
+                    actualizarBadge(data.totalItems, data.total);
+                    setTimeout(() => msgEl.textContent = '', 3000);
+                } else {
+                    msgEl.textContent = '⚠️ ' + data.msg;
+                    msgEl.className = 'small mt-2 text-danger';
+                }
+            } catch {
+                msgEl.textContent = '⚠️ Error al agregar. Intentá de nuevo.';
+                msgEl.className = 'small mt-2 text-danger';
+            }
+        }
+
+        function actualizarBadge(totalItems, total) {
+            document.getElementById('badge-global').textContent = totalItems;
+            document.getElementById('badge-global').style.display = totalItems > 0 ? '' : 'none';
+
+            const flotante = document.getElementById('carrito-flotante');
+            flotante.style.display = totalItems > 0 ? 'block' : 'none';
+            document.getElementById('flotante-count').textContent = totalItems;
+            document.getElementById('flotante-total').textContent = total;
+        }
+    </script>
+    @Html.AntiForgeryToken()
+}

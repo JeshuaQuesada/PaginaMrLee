@@ -1,0 +1,155 @@
+﻿@model MrLee.Web.Models.CarritoVm
+@{
+    ViewData["Title"] = "Mi carrito";
+    Layout = "~/Views/Portal/_LayoutPortal.cshtml";
+}
+
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h4 style="color:var(--primary);">🛒 Mi carrito</h4>
+        <a asp-controller="Carrito" asp-action="Tienda" class="btn btn-outline-primary">
+            ← Seguir comprando
+        </a>
+    </div>
+
+    @if (!Model.Items.Any())
+    {
+        <div class="portal-card p-5 text-center">
+            <div style="font-size:3.5rem;">🛒</div>
+            <h5 class="mt-3">Tu carrito está vacío</h5>
+            <p class="text-muted">Agregá productos desde la tienda.</p>
+            <a asp-controller="Carrito" asp-action="Tienda" class="btn btn-primary mt-2">
+                🍞 Ver productos
+            </a>
+        </div>
+    }
+    else
+    {
+        <div class="row g-4">
+            <!-- Items del carrito -->
+            <div class="col-lg-8">
+                <div class="portal-card p-0 overflow-hidden">
+                    <table class="table align-middle mb-0" id="tabla-carrito">
+                        <thead style="background:#fff8f0;">
+                            <tr>
+                                <th class="ps-4">Producto</th>
+                                <th class="text-end">Precio</th>
+                                <th class="text-center" style="width:130px;">Cantidad</th>
+                                <th class="text-end">Subtotal</th>
+                                <th style="width:50px;"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model.Items)
+                            {
+                                <tr id="fila-@item.ProductoId">
+                                    <td class="ps-4">
+                                        <strong>@item.Nombre</strong>
+                                        <div class="small text-muted">@item.Unidad</div>
+                                    </td>
+                                    <td class="text-end">₡ @item.Precio.ToString("N2")</td>
+                                    <td class="text-center">
+                                        <input type="number"
+                                               class="form-control form-control-sm text-center"
+                                               value="@item.Cantidad"
+                                               min="0.5" step="0.5"
+                                               style="width:80px;margin:auto;"
+                                               onchange="actualizarCantidad(@item.ProductoId, this.value)" />
+                                    </td>
+                                    <td class="text-end fw-bold" id="sub-@item.ProductoId">
+                                        ₡ @item.Subtotal.ToString("N2")
+                                    </td>
+                                    <td class="text-center">
+                                        <button class="btn btn-sm btn-outline-danger"
+                                                onclick="eliminarItem(@item.ProductoId)">
+                                            ✕
+                                        </button>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="d-flex justify-content-between mt-3">
+                    <form asp-action="Vaciar" method="post">
+                        @Html.AntiForgeryToken()
+                        <button type="submit" class="btn btn-outline-danger btn-sm"
+                                onclick="return confirm('¿Vaciar todo el carrito?')">
+                            🗑 Vaciar carrito
+                        </button>
+                    </form>
+                    <a asp-controller="Carrito" asp-action="Tienda"
+                       class="btn btn-outline-primary btn-sm">
+                        ← Seguir comprando
+                    </a>
+                </div>
+            </div>
+
+            <!-- Resumen -->
+            <div class="col-lg-4">
+                <div class="portal-card p-4">
+                    <h5 class="mb-4" style="color:var(--primary);">Resumen del pedido</h5>
+
+                    <div class="d-flex justify-content-between mb-2 text-muted small">
+                        <span>Subtotal (@Model.TotalItems producto(s))</span>
+                        <span>₡ @Model.Total.ToString("N2")</span>
+                    </div>
+                    <div class="d-flex justify-content-between mb-2 text-muted small">
+                        <span>Envío</span>
+                        <span class="text-success">Gratis</span>
+                    </div>
+                    <hr />
+                    <div class="d-flex justify-content-between fw-bold fs-5 mb-4">
+                        <span>Total</span>
+                        <span id="total-general" style="color:var(--primary);">
+                            ₡ @Model.Total.ToString("N2")
+                        </span>
+                    </div>
+
+                    <a asp-controller="Carrito" asp-action="Confirmar"
+                       class="btn btn-success w-100 btn-lg">
+                        ✅ Confirmar pedido
+                    </a>
+
+                    <div class="mt-3 small text-muted text-center">
+                        🔒 Tu pedido está seguro
+                    </div>
+                </div>
+
+                <div class="portal-card p-3 mt-3 small text-muted">
+                    <div class="mb-1">💵 Efectivo contra entrega</div>
+                    <div class="mb-1">📲 SINPE Móvil</div>
+                    <div>🏦 Transferencia bancaria</div>
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+@section Scripts {
+    <script>
+        async function actualizarCantidad(id, cantidad) {
+            const resp = await fetch('/Carrito/Actualizar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `productoId=${id}&cantidad=${cantidad}&__RequestVerificationToken=${
+                    encodeURIComponent(document.querySelector('[name="__RequestVerificationToken"]')?.value ?? '')}`
+            });
+            const data = await resp.json();
+            if (data.ok) location.reload();
+        }
+
+        async function eliminarItem(id) {
+            const resp = await fetch('/Carrito/Eliminar', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: `productoId=${id}&__RequestVerificationToken=${
+                    encodeURIComponent(document.querySelector('[name="__RequestVerificationToken"]')?.value ?? '')}`
+            });
+            const data = await resp.json();
+            if (data.ok) location.reload();
+        }
+    </script>
+    @Html.AntiForgeryToken()
+}

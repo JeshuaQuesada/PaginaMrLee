@@ -88,9 +88,9 @@
                         }
                     </td>
                     <td class="text-end">
-                        <a class="btn btn-sm btn-primary" asp-action="Detalle" asp-route-id="@e.Id">Ver</a>
-                        <a class="btn btn-sm btn-warning text-dark" asp-action="Editar" asp-route-id="@e.Id">✏️ Editar</a>
-                        <a class="btn btn-sm btn-info text-white" asp-action="CambiarEstado" asp-route-id="@e.Id">⚙ Estado</a>
+                        <a asp-action="Detalle" asp-route-id="@e.Id" class="btn btn-sm btn-primary">Ver</a>
+                        <a asp-action="Editar" asp-route-id="@e.Id" class="btn btn-sm btn-warning text-dark">✏️ Editar</a>
+                        <a asp-action="CambiarEstado" asp-route-id="@e.Id" class="btn btn-sm btn-outline-secondary">⚙ Estado</a>
                     </td>
                 </tr>
             }
