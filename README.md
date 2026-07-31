@@ -1,77 +1,92 @@
-# PaginaMrLee
-# Sistema Mr Lee
+# Mr Lee System
 
-Este ZIP incluye un proyecto **ASP.NET Core MVC (net8.0)** con **arquitectura MVC**, **EF Core (SQL Server)**, autenticación por **cookies**, control de acceso por **roles/permisos**, y los 3 módulos solicitados:
+Sistema web de gestión interna y portal de clientes para Mr Lee.  
+Permite administrar pedidos, inventario, ingresos operativos, usuarios, clientes y procesos de RRHH desde un panel administrativo.
 
-- **Seguimiento de pedidos**: crear pedido, número único, consultar, actualizar estado y ver historial/timeline.
+![.NET 8](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white)
+![ASP.NET Core MVC](https://img.shields.io/badge/ASP.NET%20Core-MVC-blue)
+![SQL Server](https://img.shields.io/badge/Database-SQL%20Server-red)
+![EF Core](https://img.shields.io/badge/ORM-EF%20Core-purple)
 
-- **Inventario**: catálogo de productos, existencias, entradas/salidas/ajustes (movimientos) y desactivar productos.
+## Características
 
-- **Usuarios y accesos**: CRUD de usuarios, roles/permisos, activar/desactivar, reset de contraseña y bitácora.
+- **Pedidos:** creación de pedidos, número de seguimiento único, consulta, cambio de estado e historial.
+- **Inventario:** catálogo de productos, existencias, movimientos de entrada/salida/ajuste y activación/inactivación de productos.
+- **Ingresos operativos:** registro, edición, anulación, adjuntos, resumen, exportación y control de períodos.
+- **Usuarios y accesos:** usuarios internos, asignación de roles, permisos por módulo, reset de contraseña y bitácora.
+- **Portal de clientes:** registro, login, perfil, pedidos, carrito/tienda, preferencias y baja/reactivación de cuenta.
+- **RRHH:** empleados, vacaciones, incapacidades, documentos de expediente, contactos, cuentas bancarias y movimientos laborales.
 
+## Tecnologías
 
-
----
+- ASP.NET Core MVC `net8.0`
+- Entity Framework Core
+- SQL Server
+- Autenticación por cookies
+- Autorización por roles y permisos
+- Bootstrap 5
 
 ## Requisitos
 
-- Visual Studio 2022 (o VS Code) con .NET 8
-- SQL Server (LocalDB o Express)
+- Visual Studio 2022 o VS Code
+- .NET 8 SDK
+- SQL Server, LocalDB, Express o Azure SQL
 
----
+## Configuración
 
-## 1) Base de datos
+1. Abrir la solución `MrLeeSystem.sln`.
+2. Configurar la cadena de conexión en `src/MrLee.Web/appsettings.json`.
+3. Crear o actualizar la base de datos usando los scripts SQL disponibles.
+4. Ejecutar el proyecto web `src/MrLee.Web`.
 
-### Ejecutar script SQL
-1. Abra `Database/01_MrLeeDb.sql` en SQL Server Management Studio.
-2. Ejecútelo (crea `MrLeeDb` y tablas).
+## Base de datos
 
-### Con migraciones EF Core
-El proyecto incluye `db.Database.Migrate()` en el arranque.
-1. Configure el connection string en `src/MrLee.Web/appsettings.json`
-2. Ejecute el proyecto y se crearán tablas automáticamente.
+El sistema usa SQL Server mediante EF Core.  
+El arranque ejecuta `Database.Migrate()` y realiza seed de datos iniciales, pero este repositorio no incluye migraciones EF visibles, por lo que para una base nueva se recomienda usar los scripts SQL.
 
----
+Scripts disponibles actualmente:
 
-## 2) Credenciales iniciales (admin)
+- `MrLeeSystem-main/Database/01_MrLeeDb.sql`
+- `MrLeeSystem-main/Database/Clientes.sql`
+- `MrLeeSystem-main/Database/Rrhh.sql`
 
-Al levantar el sistema por primera vez, se hace **seed** de:
-- Roles básicos (Administrador, Ventas, Bodega, Despacho)
-- Permisos del sistema
-- Usuario admin (si la tabla Users está vacía)
+## Seed inicial
 
-Se leen de `appsettings.json`:
+Al iniciar el sistema se crean permisos, roles básicos y un usuario administrador cuando la tabla de usuarios está vacía.
 
-```json
-"Seed": {
-  "AdminEmail": "admin@mrlee.local",
-  "AdminPassword": "Admin123!"
-}
-```
+Roles iniciales:
 
----
+- Administrador
+- Ventas
+- Bodega
+- Despacho
 
-## 3) Módulos incluidos (rutas)
+Las credenciales iniciales se configuran desde `appsettings.json` en la sección `Seed`.
 
+## Rutas principales
+
+- Login administrativo: `/Account/Login`
 - Pedidos: `/Orders`
 - Inventario: `/Inventory`
 - Usuarios: `/Users`
 - Bitácora: `/Users/Audit`
-- Login: `/Account/Login`
+- Ingresos: `/OperatingIncome`
+- Empleados: `/Empleados`
+- Vacaciones: `/Vacaciones/Pendientes`
+- Portal de clientes: `/Portal`
+- Tienda/Carrito: `/Carrito/Tienda`
 
----
+## Seguridad
 
-## 4) Notas técnicas
+- Contraseñas internas con PBKDF2, SHA256 y 100,000 iteraciones.
+- Bloqueo temporal después de 5 intentos fallidos.
+- Control de acceso por permisos.
+- Bitácora de acciones en `ActionLogs`.
 
-- **Passwords**: PBKDF2 (SHA256, 100k iteraciones) almacenado en `Users.PasswordHash`.
-- **Bloqueo por intentos fallidos**: al 5to intento, bloqueo 15 minutos (requerimiento SEGR-006).
-- **Bitácora**: tabla `ActionLogs`.
-
----
-
-## Estructura del repositorio
+## Estructura
 
 - `MrLeeSystem.sln`
-- `src/MrLee.Web/` (proyecto web)
-- `Database/01_MrLeeDb.sql` (script SQL Server)
-- `wwwroot/img/logo.jpeg` (logo)
+- `src/MrLee.Web/`
+- `src/MrLee.Web/wwwroot/img/logo.jpeg`
+- `MrLeeSystem-main/Database/`
+- `Docs/`
