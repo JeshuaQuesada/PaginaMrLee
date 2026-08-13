@@ -1,0 +1,708 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\viewmodels\\rawgviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\viewmodels\\rawgviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\views\\library\\rawg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\views\\library\\rawg.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\services\\gamelibraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\services\\gamelibraryapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|solutionrelative:src\\proyectofinalleyendillas.application\\services\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.application\\abstractions\\external\\irawgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|solutionrelative:src\\proyectofinalleyendillas.application\\abstractions\\external\\irawgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.infrastructure\\services\\rawgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|solutionrelative:src\\proyectofinalleyendillas.infrastructure\\services\\rawgservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|solutionrelative:src\\proyectofinalleyendillas.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.api\\proyectofinalleyendillas.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|solutionrelative:src\\proyectofinalleyendillas.api\\proyectofinalleyendillas.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|solutionrelative:src\\proyectofinalleyendillas.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D8CE560C-89A0-4C2E-9A5B-2BCBBA7776D5}|src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj|solutionrelative:src\\proyectofinalleyendillas.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\views\\library\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\views\\library\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\views\\library\\favorites.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F703F4F6-BE2F-472C-923E-063809B620B7}|tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\tests\\proyectofinalleyendillas.tests\\gameservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F703F4F6-BE2F-472C-923E-063809B620B7}|tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj|solutionrelative:tests\\proyectofinalleyendillas.tests\\gameservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.application\\abstractions\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|solutionrelative:src\\proyectofinalleyendillas.application\\abstractions\\services\\igameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.application\\abstractions\\persistence\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|solutionrelative:src\\proyectofinalleyendillas.application\\abstractions\\persistence\\igamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.infrastructure\\repositories\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|solutionrelative:src\\proyectofinalleyendillas.infrastructure\\repositories\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|solutionrelative:src\\proyectofinalleyendillas.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9A0BD24-7D20-4D0C-93F9-A9EF8EAC244C}|src\\ProyectoFinalLeyendillas.Infrastructure\\ProyectoFinalLeyendillas.Infrastructure.csproj|solutionrelative:src\\proyectofinalleyendillas.infrastructure\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.web\\proyectofinalleyendillas.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E82B06D6-194B-42F1-8AF5-12C98D5E86CF}|src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj|solutionrelative:src\\proyectofinalleyendillas.web\\proyectofinalleyendillas.web.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.application\\abstractions\\persistence\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|solutionrelative:src\\proyectofinalleyendillas.application\\abstractions\\persistence\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F703F4F6-BE2F-472C-923E-063809B620B7}|tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\tests\\proyectofinalleyendillas.tests\\dashboardservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F703F4F6-BE2F-472C-923E-063809B620B7}|tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj|solutionrelative:tests\\proyectofinalleyendillas.tests\\dashboardservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F703F4F6-BE2F-472C-923E-063809B620B7}|tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\tests\\proyectofinalleyendillas.tests\\proyectofinalleyendillas.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F703F4F6-BE2F-472C-923E-063809B620B7}|tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj|solutionrelative:tests\\proyectofinalleyendillas.tests\\proyectofinalleyendillas.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|c:\\users\\jeshu\\downloads\\proyectofinalleyendillas\\proyectofinalleyendillas\\proyectofinalleyendillas\\src\\proyectofinalleyendillas.application\\dtos\\creategamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1985B97-2C90-454A-8B52-68A8A4A7D4F2}|src\\ProyectoFinalLeyendillas.Application\\ProyectoFinalLeyendillas.Application.csproj|solutionrelative:src\\proyectofinalleyendillas.application\\dtos\\creategamerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 63,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:13:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:14:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{809f6ff3-8092-454a-8003-6d4091f9b5bb}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:140:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:141:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:142:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:146:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:147:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:148:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:151:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:149:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:150:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:152:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:153:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:154:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:155:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:156:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:159:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ca8cc5c7-0231-406a-95cd-aa5ed6ac0190}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RawgViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\ViewModels\\RawgViewModel.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\ViewModels\\RawgViewModel.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\ViewModels\\RawgViewModel.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\ViewModels\\RawgViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T03:57:07.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IRawgService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\External\\IRawgService.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\External\\IRawgService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\External\\IRawgService.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\External\\IRawgService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T03:45:09.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameLibraryApiClient.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Services\\GameLibraryApiClient.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\Services\\GameLibraryApiClient.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Services\\GameLibraryApiClient.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\Services\\GameLibraryApiClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:18:53.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RawgService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\Services\\RawgService.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Infrastructure\\Services\\RawgService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\Services\\RawgService.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Infrastructure\\Services\\RawgService.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAA5wHwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:09:19.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibraryController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Controllers\\LibraryController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\Controllers\\LibraryController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Controllers\\LibraryController.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\Controllers\\LibraryController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:19:51.956Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\Program.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Api\\Program.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAHsAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:02:22.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rawg.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Rawg.cshtml",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Rawg.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Rawg.cshtml",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Rawg.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T01:30:29.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Program.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Program.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T03:40:10.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Index.cshtml",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Index.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Index.cshtml",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Index.cshtml",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T01:24:05.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\appsettings.json",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T00:07:54.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Services\\GameService.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Application\\Services\\GameService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Services\\GameService.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Application\\Services\\GameService.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAowJEAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T23:58:53.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\appsettings.json",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T00:07:29.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProyectoFinalLeyendillas.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAwwBEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T02:42:27.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-20T02:18:20.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T01:20:41.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Favorites.cshtml",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Favorites.cshtml",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Favorites.cshtml",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Favorites.cshtml",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\Views\\Library\\Favorites.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswDUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-20T01:27:58.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGameService.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Services\\IGameService.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Services\\IGameService.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Services\\IGameService.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Services\\IGameService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T23:57:11.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GameRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GameRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GameRepository.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GameRepository.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GameRepository.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAwEQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:01:18.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IGameRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGameRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGameRepository.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGameRepository.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGameRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:00:55.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\tests\\ProyectoFinalLeyendillas.Tests\\GameServiceTests.cs",
+              "RelativeDocumentMoniker": "tests\\ProyectoFinalLeyendillas.Tests\\GameServiceTests.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\tests\\ProyectoFinalLeyendillas.Tests\\GameServiceTests.cs",
+              "RelativeToolTip": "tests\\ProyectoFinalLeyendillas.Tests\\GameServiceTests.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAowHIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T23:46:09.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Infrastructure\\Repositories\\GenreRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA+wC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:02:03.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ProyectoFinalLeyendillas.Web.csproj",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-20T00:04:28.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:06:53.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGenreRepository.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Application\\Abstractions\\Persistence\\IGenreRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-20T00:01:49.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DashboardServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\tests\\ProyectoFinalLeyendillas.Tests\\DashboardServiceTests.cs",
+              "RelativeDocumentMoniker": "tests\\ProyectoFinalLeyendillas.Tests\\DashboardServiceTests.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\tests\\ProyectoFinalLeyendillas.Tests\\DashboardServiceTests.cs",
+              "RelativeToolTip": "tests\\ProyectoFinalLeyendillas.Tests\\DashboardServiceTests.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAkwIMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T23:46:04.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ProyectoFinalLeyendillas.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj",
+              "RelativeDocumentMoniker": "tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj",
+              "RelativeToolTip": "tests\\ProyectoFinalLeyendillas.Tests\\ProyectoFinalLeyendillas.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-19T23:46:02.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "CreateGameRequest.cs",
+              "DocumentMoniker": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\DTOs\\CreateGameRequest.cs",
+              "RelativeDocumentMoniker": "src\\ProyectoFinalLeyendillas.Application\\DTOs\\CreateGameRequest.cs",
+              "ToolTip": "C:\\Users\\jeshu\\Downloads\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\ProyectoFinalLeyendillas\\src\\ProyectoFinalLeyendillas.Application\\DTOs\\CreateGameRequest.cs",
+              "RelativeToolTip": "src\\ProyectoFinalLeyendillas.Application\\DTOs\\CreateGameRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T17:09:00.648Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

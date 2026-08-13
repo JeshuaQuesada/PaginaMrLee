@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "src\\ProyectoFinalLeyendillas.Api\\ProyectoFinalLeyendillas.Api.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "src\\ProyectoFinalLeyendillas.Web\\ProyectoFinalLeyendillas.Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
